@@ -1,0 +1,2216 @@
+﻿{
+  "schema_version": 4,
+  "release_id": "mbaa-cn-stable-v1-1-4",
+  "release_version": "1.1.4",
+  "release_title": "MBAA 汉化补丁 稳定版 v1.1.4",
+  "game": "MELTY BLOOD Actress Again Current Code (Steam)",
+  "payload_directory": "payload",
+  "backup_directory_prefix": "MBAA_CN_Stable_v1_1_4_",
+  "install_mode": "install only from the complete Steam-original runtime",
+  "uninstall_mode": "restore the verified Steam-original backup created during installation",
+  "install_profile": {
+    "id": "steam-clean",
+    "files": {
+      "0003.p": "848fc09e2a5839f2a37256e025ade49161c564b59b0f5e013d6e841623fcb31e",
+      "0004.p": "39b3df9df78689b638642f10e9981a12624079869fc89a463a6549ae41b972ce",
+      "0007.p": "f37f47a23deaf29146397b4c27002c2fded5b1a57786d475f41aa3f13cd09d5c",
+      "MBAA.exe": "11270cf2da851054aa6c1bff309d50b042429abd936dca5df833bcd1de5e6c46"
+    }
+  },
+  "files": [
+    {
+      "name": "0003.p",
+      "install_payload": {
+        "path": "payload/0003.p",
+        "sha256": "9c1ccee984f7bc45fcfe6baa7301890fd4092b3e0c07bc006c34e533c4e23dfd",
+        "bytes": 150473839
+      }
+    },
+    {
+      "name": "0004.p",
+      "install_payload": {
+        "path": "payload/0004.p",
+        "sha256": "762f0738b0c8d73a1c7d6b54c82683a2385f9fc9f31f7a52a28775416dd539d1",
+        "bytes": 5117369
+      }
+    },
+    {
+      "name": "0007.p",
+      "install_payload": {
+        "path": "payload/0007.p",
+        "sha256": "91cfb6cb54d88c023db502a0c60363d59167e94d2563099f77a870c6983ae937",
+        "bytes": 64514615
+      }
+    },
+    {
+      "name": "MBAA.exe",
+      "install_payload": {
+        "path": "payload/MBAA.exe",
+        "sha256": "457e9184da2217ce35f8c09d4cfab211b7c399d802ca9c3575ae427c9a3b52b9",
+        "bytes": 1912832
+      }
+    }
+  ],
+  "contents": {
+    "story_blocks_language_reviewed": 3082,
+    "story_carrier_glyphs": 823,
+    "story_name_corrections": 2,
+    "network_gbk_values": 154,
+    "gametext_confirmation_keys": 16,
+    "command_name_files_total": 94,
+    "command_name_lines_total": 1438,
+    "command_name_new_carriers": 32,
+    "command_name_font_gap_carriers": 4,
+    "global_term_corrections": {
+      "希翁->紫苑": 114,
+      "巷弄同盟->小巷子同盟": 11
+    },
+    "global_term_correction_blocks": 115,
+    "glyph_corrections": [
+      "穿",
+      "箭",
+      "稽"
+    ],
+    "vs_result_menu_entries": 1,
+    "vs_result_menu_translation_keys": 6,
+    "vs_result_menu_encoding": "GBK",
+    "nechaos_ending_control_byte_fix": true,
+    "nechaos_name_translation_fix": true,
+    "nechaos_ending_byte_alignment_fix": true
+  },
+  "story_name_correction_audit": [
+    {
+      "entry": "story/battle/jpn/ciel04.txt",
+      "kind": "MD",
+      "ordinal": 1,
+      "old_display": "爱蕾西亚",
+      "new_display": "艾蕾西亚",
+      "old_stored_cp932_hex": "9676e78f81438b7a8c8c8b5393499aa48c8a81420d0a9c6b9b43944f967381439ecfe55190bc8de18148e2f4e49391fc974c997b935681430d0a91d796e7915c90738fee95699a98e697e6a294fc8ef093498d819f8381425c",
+      "new_stored_cp932_hex": "9676e78f81438b7a8c8c8b5393499aa48c8a81420d0a9c6b9b43944f96738143e488e55190bc8de18148e2f4e49391fc974c997b935681430d0a91d796e7915c90738fee95699a98e697e6a294fc8ef093498d819f8381425c"
+    },
+    {
+      "entry": "story/battle/jpn/roa08.txt",
+      "kind": "MD",
+      "ordinal": 6,
+      "old_display": "爱蕾西亚",
+      "new_display": "艾蕾西亚",
+      "old_stored_cp932_hex": "e6a28dcb90a589e490e6914f934993f791cc81420d0a815c815c9c6b8d4481439788967381439ecfe55190bc8de181420d0a8f41975289e48dea8ee8eda4959e93df8bef906791cc967381425c",
+      "new_stored_cp932_hex": "e6a28dcb90a589e490e6914f934993f791cc81420d0a815c815c9c6b8d448143978896738143e488e55190bc8de181420d0a8f41975289e48dea8ee8eda4959e93df8bef906791cc967381425c"
+    }
+  ],
+  "global_correction_audit": {
+    "story_changed_entries": [
+      "story/battle/jpn/akiha09.txt",
+      "story/battle/jpn/akiha_ending.txt",
+      "story/battle/jpn/akiha_win.txt",
+      "story/battle/jpn/aoko09.txt",
+      "story/battle/jpn/arc08.txt",
+      "story/battle/jpn/arc_ending.txt",
+      "story/battle/jpn/hisui_win.txt",
+      "story/battle/jpn/kohaku_ending.txt",
+      "story/battle/jpn/kohaku_start.txt",
+      "story/battle/jpn/kohaku_win.txt",
+      "story/battle/jpn/mech_and_kohaku08.txt",
+      "story/battle/jpn/mech_and_kohaku_win.txt",
+      "story/battle/jpn/neco08.txt",
+      "story/battle/jpn/nero09.txt",
+      "story/battle/jpn/p_ciel_win.txt",
+      "story/battle/jpn/ries08.txt",
+      "story/battle/jpn/ries09.txt",
+      "story/battle/jpn/riesEX_win.txt",
+      "story/battle/jpn/ries_ending.txt",
+      "story/battle/jpn/ries_win.txt",
+      "story/battle/jpn/s_akiha_win.txt",
+      "story/battle/jpn/satsuki04.txt",
+      "story/battle/jpn/satsuki08.txt",
+      "story/battle/jpn/satsuki09.txt",
+      "story/battle/jpn/satsuki_ending.txt",
+      "story/battle/jpn/satsuki_start.txt",
+      "story/battle/jpn/satsuki_win.txt",
+      "story/battle/jpn/shiki09.txt",
+      "story/battle/jpn/shiki_boss_rash05.txt",
+      "story/battle/jpn/shiki_ending.txt",
+      "story/battle/jpn/shiki_win.txt",
+      "story/battle/jpn/sion04.txt",
+      "story/battle/jpn/sion08.txt",
+      "story/battle/jpn/sion09.txt",
+      "story/battle/jpn/sion_ending.txt",
+      "story/battle/jpn/v_sion08.txt",
+      "story/battle/jpn/v_sion09.txt",
+      "story/battle/jpn/v_sion_ending.txt",
+      "story/battle/jpn/warakia09.txt",
+      "story/battle/jpn/warakia_ending.txt",
+      "story/battle/jpn/warakia_win.txt",
+      "story/battle/jpn/wlen08.txt"
+    ],
+    "story_blocks": [
+      {
+        "entry": "story/battle/jpn/akiha09.txt",
+        "kind": "MD",
+        "ordinal": 1,
+        "old_display_lines": [
+          "咦，看来又不是希翁。",
+          "看起来你才是元凶。\\"
+        ],
+        "new_display_lines": [
+          "咦，看来又不是紫苑。",
+          "看起来你才是元凶。\\"
+        ],
+        "old_stored_cp932_hex": "977581438ac597889694957390a58af389a581428ac58b4e978891d78dcb90a58cb38ba581425c",
+        "new_stored_cp932_hex": "977581438ac597889694957390a58e87899181428ac58b4e978891d78dcb90a58cb38ba581425c"
+      },
+      {
+        "entry": "story/battle/jpn/akiha09.txt",
+        "kind": "MD",
+        "ordinal": 2,
+        "old_display_lines": [
+          "是希翁的影子，还是伊芙？若还留有理性，",
+          "至少听我说几句吧，冒牌货？\\"
+        ],
+        "new_display_lines": [
+          "是紫苑的影子，还是伊芙？若还留有理性，",
+          "至少听我说几句吧，冒牌货？\\"
+        ],
+        "old_stored_cp932_hex": "90a58af389a5934989658e718143e69b90a588c9958781488ee1e69b97af974c979d90ab81438e8a8fad99df89e4e493997b8be59673814396609476e59181485c",
+        "new_stored_cp932_hex": "90a58e878991934989658e718143e69b90a588c9958781488ee1e69b97af974c979d90ab81438e8a8fad99df89e4e493997b8be59673814396609476e59181485c"
+      },
+      {
+        "entry": "story/battle/jpn/akiha09.txt",
+        "kind": "MD",
+        "ordinal": 7,
+        "old_display_lines": [
+          "……我和希翁·艾尔特纳姆·阿特拉西亚",
+          "并非同一存在？\\"
+        ],
+        "new_display_lines": [
+          "……我和紫苑·艾尔特纳姆·阿特拉西亚",
+          "并非同一存在？\\"
+        ],
+        "old_stored_cp932_hex": "8163816389e498618af389a589a6e4889a9393c1e18e9b4789a688a293c19d6690bc8de19bf394f193af88ea91b68ddd81485c",
+        "new_stored_cp932_hex": "8163816389e498618e87899189a6e4889a9393c1e18e9b4789a688a293c19d6690bc8de19bf394f193af88ea91b68ddd81485c"
+      },
+      {
+        "entry": "story/battle/jpn/akiha09.txt",
+        "kind": "MD",
+        "ordinal": 8,
+        "old_display_lines": [
+          "当然。根本无须讨论谁真谁假。",
+          "毕竟你不是我所认识的希翁。",
+          "辨别的方法，光凭这一点就足够了。\\"
+        ],
+        "new_display_lines": [
+          "当然。根本无须讨论谁真谁假。",
+          "毕竟你不是我所认识的紫苑。",
+          "辨别的方法，光凭这一点就足够了。\\"
+        ],
+        "old_stored_cp932_hex": "9396915281428daa967b9dd9ea6be3a8e3bce4d9905ee4d998ef81429dd7e8ed91d7957390a589e48f8ae39de3cb93498af389a58142999e93ba934995fb964081438cf5997ee6a288ea935f8f4191ab99dd97b981425c",
+        "new_stored_cp932_hex": "9396915281428daa967b9dd9ea6be3a8e3bce4d9905ee4d998ef81429dd7e8ed91d7957390a589e48f8ae39de3cb93498e8789918142999e93ba934995fb964081438cf5997ee6a288ea935f8f4191ab99dd97b981425c"
+      },
+      {
+        "entry": "story/battle/jpn/akiha09.txt",
+        "kind": "MD",
+        "ordinal": 10,
+        "old_display_lines": [
+          "……原来如此。难怪作为希翁的我会嫉妒。\\"
+        ],
+        "new_display_lines": [
+          "……原来如此。难怪作为紫苑的我会嫉妒。\\"
+        ],
+        "old_stored_cp932_hex": "816381638cb4978894408d9f8142ea4789f68dec8ab28af389a5934989e489ef8eb99a5781425c",
+        "new_stored_cp932_hex": "816381638cb4978894408d9f8142ea4789f68dec8ab28e878991934989e489ef8eb99a5781425c"
+      },
+      {
+        "entry": "story/battle/jpn/akiha09.txt",
+        "kind": "MD",
+        "ordinal": 11,
+        "old_display_lines": [
+          "诶……？嫉妒是指，希翁嫉妒我……？\\"
+        ],
+        "new_display_lines": [
+          "诶……？嫉妒是指，紫苑嫉妒我……？\\"
+        ],
+        "old_stored_cp932_hex": "e4a08163816381488eb99a5790a58e7781438af389a58eb99a5789e48163816381485c",
+        "new_stored_cp932_hex": "e4a08163816381488eb99a5790a58e7781438e8789918eb99a5789e48163816381485c"
+      },
+      {
+        "entry": "story/battle/jpn/akiha09.txt",
+        "kind": "MD",
+        "ordinal": 12,
+        "old_display_lines": [
+          "若非舍弃自我，便不会察觉的愚蠢感情。",
+          "因此，“你所认识的希翁”留在了",
+          "那里。\\"
+        ],
+        "new_display_lines": [
+          "若非舍弃自我，便不会察觉的愚蠢感情。",
+          "因此，“你所认识的紫苑”留在了",
+          "那里。\\"
+        ],
+        "old_stored_cp932_hex": "8ee194f1e4719c508ea989e4814395d6957389ef8e40e39393498bf0e5bf8ab48fee814288f68d9f8143816791d78f8ae39de3cb93498af389a5816897af8ddd97b993df97a281425c",
+        "new_stored_cp932_hex": "8ee194f1e4719c508ea989e4814395d6957389ef8e40e39393498bf0e5bf8ab48fee814288f68d9f8143816791d78f8ae39de3cb93498e878991816897af8ddd97b993df97a281425c"
+      },
+      {
+        "entry": "story/battle/jpn/akiha_ending.txt",
+        "kind": "XM",
+        "ordinal": 1,
+        "old_display_lines": [
+          "志贵先生、希翁小姐、连翡翠和莲小姐",
+          "都说什么也不记得。\\"
+        ],
+        "new_display_lines": [
+          "志贵先生、紫苑小姐、连翡翠和莲小姐",
+          "都说什么也不记得。\\"
+        ],
+        "old_stored_cp932_hex": "8e75e5a790e690b681418af389a58fac88b78141e6afe3c590899861e2d28fac88b79373e4938f598b6196e79573e3b293be81425c",
+        "new_stored_cp932_hex": "8e75e5a790e690b681418e8789918fac88b78141e6afe3c590899861e2d28fac88b79373e4938f598b6196e79573e3b293be81425c"
+      },
+      {
+        "entry": "story/battle/jpn/akiha_win.txt",
+        "kind": "WIN",
+        "ordinal": 14,
+        "old_display_lines": [
+          "今天是我略胜一筹，希翁。",
+          "以太光体还没能掌握，但",
+          "实战中我不会落后。"
+        ],
+        "new_display_lines": [
+          "今天是我略胜一筹，紫苑。",
+          "以太光体还没能掌握，但",
+          "实战中我不会落后。"
+        ],
+        "old_stored_cp932_hex": "8da1935690a589e497aae29a88eae14881438af389a5814288c891be8cf591cce69b9676945c8fb688ac814392419a699b94928689e4957389ef978e8d408142",
+        "new_stored_cp932_hex": "8da1935690a589e497aae29a88eae14881438e878991814288c891be8cf591cce69b9676945c8fb688ac814392419a699b94928689e4957389ef978e8d408142"
+      },
+      {
+        "entry": "story/battle/jpn/akiha_win.txt",
+        "kind": "WIN",
+        "ordinal": 15,
+        "old_display_lines": [
+          "谢谢，算是不错的转换心情。",
+          "是希翁的朋友……莉兹拜斐小姐",
+          "来着吗？",
+          "如何，每周一次左右，愿意与我交手吗？"
+        ],
+        "new_display_lines": [
+          "谢谢，算是不错的转换心情。",
+          "是紫苑的朋友……莉兹拜斐小姐",
+          "来着吗？",
+          "如何，每周一次左右，愿意与我交手吗？"
+        ],
+        "old_stored_cp932_hex": "e568e56881438e5a90a59573e78f9349e6609bf490538fee814290a58af389a5934995fc974681638163e4bb92d69d6094e38fac88b79788928595f78148944089bd81439dd68efc88ea8e9f8db6894581439cc388d3975e89e48cf08ee895f78148",
+        "new_stored_cp932_hex": "e568e56881438e5a90a59573e78f9349e6609bf490538fee814290a58e878991934995fc974681638163e4bb92d69d6094e38fac88b79788928595f78148944089bd81439dd68efc88ea8e9f8db6894581439cc388d3975e89e48cf08ee895f78148"
+      },
+      {
+        "entry": "story/battle/jpn/akiha_win.txt",
+        "kind": "WIN",
+        "ordinal": 18,
+        "old_display_lines": [
+          "我想起来了，希翁。一年前，也发生过完全一样的事，",
+          "我们正是那时相识的。……不过。",
+          "那时候没听你说话，是因为哥哥在。",
+          "关于那一点，请别误会。"
+        ],
+        "new_display_lines": [
+          "我想起来了，紫苑。一年前，也发生过完全一样的事，",
+          "我们正是那时相识的。……不过。",
+          "那时候没听你说话，是因为哥哥在。",
+          "关于那一点，请别误会。"
+        ],
+        "old_stored_cp932_hex": "89e4917a8b4e978897b981438af389a5814288ea944e914f814396e7956690b6e6978aae915388ea9db393498e96814389e48fc390b390a593df9cdc918ae3cb93498142816381639573e697814293df9cdc8cf3967699df91d7e493e3f1814390a588f68ab29a469a468ddd814292ba98b093df88ea935f8143e4ac93bae48e89ef8142",
+        "new_stored_cp932_hex": "89e4917a8b4e978897b981438e878991814288ea944e914f814396e7956690b6e6978aae915388ea9db393498e96814389e48fc390b390a593df9cdc918ae3cb93498142816381639573e697814293df9cdc8cf3967699df91d7e493e3f1814390a588f68ab29a469a468ddd814292ba98b093df88ea935f8143e4ac93bae48e89ef8142"
+      },
+      {
+        "entry": "story/battle/jpn/akiha_win.txt",
+        "kind": "WIN",
+        "ordinal": 19,
+        "old_display_lines": [
+          "……天亮了……血海，还有刚才还在那里的",
+          "她的记忆，都在消失……。",
+          "……有一件事需要纠正。最后微笑着消失的",
+          "确实很像你，希翁。"
+        ],
+        "new_display_lines": [
+          "……天亮了……血海，还有刚才还在那里的",
+          "她的记忆，都在消失……。",
+          "……有一件事需要纠正。最后微笑着消失的",
+          "确实很像你，紫苑。"
+        ],
+        "old_stored_cp932_hex": "81638163935697ba97b9816381638c8c8a438143e69b974c939f8dcbe69b8ddd93df97a293499a539349e3b29aec814393738ddd8fc18eb881638163814281638163974c88ea8c8f8e968ef99776e16b90b381428dc58d4094f78fce92858fc18eb893499fc89a699c6b919c91d781438af389a58142",
+        "new_stored_cp932_hex": "81638163935697ba97b9816381638c8c8a438143e69b974c939f8dcbe69b8ddd93df97a293499a539349e3b29aec814393738ddd8fc18eb881638163814281638163974c88ea8c8f8e968ef99776e16b90b381428dc58d4094f78fce92858fc18eb893499fc89a699c6b919c91d781438e8789918142"
+      },
+      {
+        "entry": "story/battle/jpn/aoko09.txt",
+        "kind": "MD",
+        "ordinal": 16,
+        "old_display_lines": [
+          "希翁・艾尔特纳姆・阿特拉西亚。",
+          "你造出的贤者之石，我会在这里一个不留地",
+          "我会毁掉它。\\"
+        ],
+        "new_display_lines": [
+          "紫苑・艾尔特纳姆・阿特拉西亚。",
+          "你造出的贤者之石，我会在这里一个不留地",
+          "我会毁掉它。\\"
+        ],
+        "old_stored_cp932_hex": "8af389a58145e4889a9393c1e18e9b47814588a293c19d6690bc8de1814291d791a28f6f9349e57d8ed2945690ce814389e489ef8ddde6a297a288ea98a2957397af926e89e489ef9dd59d7b9b8081425c",
+        "new_stored_cp932_hex": "8e8789918145e4889a9393c1e18e9b47814588a293c19d6690bc8de1814291d791a28f6f9349e57d8ed2945690ce814389e489ef8ddde6a297a288ea98a2957397af926e89e489ef9dd59d7b9b8081425c"
+      },
+      {
+        "entry": "story/battle/jpn/arc08.txt",
+        "kind": "MD",
+        "ordinal": 10,
+        "old_display_lines": [
+          "就是希翁、希耶尔学姐、秋叶、莲，",
+          "还有在那里偶然认识的、像音乐家的人",
+          "之类的―――\\"
+        ],
+        "new_display_lines": [
+          "就是紫苑、希耶尔学姐、秋叶、莲，",
+          "还有在那里偶然认识的、像音乐家的人",
+          "之类的―――\\"
+        ],
+        "old_stored_cp932_hex": "8f4190a58af389a581418af396eb9a938a7788b781418f488a908141e2d28143e69b974c8ddd93df97a28bf49152e39de3cb93498141919c89b98ba189c69349906c9456e15d9349815c815c815c5c",
+        "new_stored_cp932_hex": "8f4190a58e87899181418af396eb9a938a7788b781418f488a908141e2d28143e69b974c8ddd93df97a28bf49152e39de3cb93498141919c89b98ba189c69349906c9456e15d9349815c815c815c5c"
+      },
+      {
+        "entry": "story/battle/jpn/arc_ending.txt",
+        "kind": "XM",
+        "ordinal": 1,
+        "old_display_lines": [
+          "贤者之石是很可惜，不过那个叫希翁的孩子，",
+          "迟早会造出类似的东西吧……。",
+          "嗯，结果好就一切都好啦？\\"
+        ],
+        "new_display_lines": [
+          "贤者之石是很可惜，不过那个叫紫苑的孩子，",
+          "迟早会造出类似的东西吧……。",
+          "嗯，结果好就一切都好啦？\\"
+        ],
+        "old_stored_cp932_hex": "e57d8ed2945690ce90a59c6b89c290c981439573e69793df98a28ba98af389a593499b778e718143e6b0918189ef91a28f6fe15d8e97934989da90bc9673816381638142995f8143e1ac89ca8d448f4188ea90d893738d4498e681485c",
+        "new_stored_cp932_hex": "e57d8ed2945690ce90a59c6b89c290c981439573e69793df98a28ba98e87899193499b778e718143e6b0918189ef91a28f6fe15d8e97934989da90bc9673816381638142995f8143e1ac89ca8d448f4188ea90d893738d4498e681485c"
+      },
+      {
+        "entry": "story/battle/jpn/hisui_win.txt",
+        "kind": "WIN",
+        "ordinal": 27,
+        "old_display_lines": [
+          "……呼。总算请您回去了。",
+          "那扇门是以前的陷阱吗……",
+          "下次得请希翁大人过来，把它拆除了……"
+        ],
+        "new_display_lines": [
+          "……呼。总算请您回去了。",
+          "那扇门是以前的陷阱吗……",
+          "下次得请紫苑大人过来，把它拆除了……"
+        ],
+        "old_stored_cp932_hex": "816381638cc481429b518e5ae4ac9b6689f18b8e97b9814293df90eee7b090a588c8914f9349e89ce7d595f78163816389ba8e9f93bee4ac8af389a591e5906ce6979788814394639b809d5d8f9c97b981638163",
+        "new_stored_cp932_hex": "816381638cc481429b518e5ae4ac9b6689f18b8e97b9814293df90eee7b090a588c8914f9349e89ce7d595f78163816389ba8e9f93bee4ac8e87899191e5906ce6979788814394639b809d5d8f9c97b981638163"
+      },
+      {
+        "entry": "story/battle/jpn/kohaku_ending.txt",
+        "kind": "XM",
+        "ordinal": 1,
+        "old_display_lines": [
+          "那是一夜限定的塔塔利再演，只有那一夜忘记了",
+          "希翁小姐，消失的人们也全都",
+          "回来了呢――。\\"
+        ],
+        "new_display_lines": [
+          "那是一夜限定的塔塔利再演，只有那一夜忘记了",
+          "紫苑小姐，消失的人们也全都",
+          "回来了呢――。\\"
+        ],
+        "old_stored_cp932_hex": "93df90a588ea96e98cc092e893499383938397988dc48989814391fc974c93df88ea96e99659e3b297b98af389a58fac88b781438fc18eb89349906c8fc396e79153937389f1978897b996ce815c815c81425c",
+        "new_stored_cp932_hex": "93df90a588ea96e98cc092e893499383938397988dc48989814391fc974c93df88ea96e99659e3b297b98e8789918fac88b781438fc18eb89349906c8fc396e79153937389f1978897b996ce815c815c81425c"
+      },
+      {
+        "entry": "story/battle/jpn/kohaku_start.txt",
+        "kind": "MD",
+        "ordinal": 3,
+        "old_display_lines": [
+          "希翁小姐――\\"
+        ],
+        "new_display_lines": [
+          "紫苑小姐――\\"
+        ],
+        "old_stored_cp932_hex": "8af389a58fac88b7815c815c5c",
+        "new_stored_cp932_hex": "8e8789918fac88b7815c815c5c"
+      },
+      {
+        "entry": "story/battle/jpn/kohaku_start.txt",
+        "kind": "MD",
+        "ordinal": 4,
+        "old_display_lines": [
+          "不好意思，这个感应器会探测什么样的波",
+          "呢？……咦？希翁小姐是……",
+          "谁来着？\\"
+        ],
+        "new_display_lines": [
+          "不好意思，这个感应器会探测什么样的波",
+          "呢？……咦？紫苑小姐是……",
+          "谁来着？\\"
+        ],
+        "old_stored_cp932_hex": "95738d4488d38e768143e6a298a28ab49abb8aed89ef92549e528f598b619db39349946796ce814881638163977581488af389a58fac88b790a581638163e4d99788928581485c",
+        "new_stored_cp932_hex": "95738d4488d38e768143e6a298a28ab49abb8aed89ef92549e528f598b619db39349946796ce814881638163977581488e8789918fac88b790a581638163e4d99788928581485c"
+      },
+      {
+        "entry": "story/battle/jpn/kohaku_start.txt",
+        "kind": "MD",
+        "ordinal": 6,
+        "old_display_lines": [
+          "虽然想不起希翁小姐是谁，但这台机器",
+          "毫无疑问是和希翁小姐共同开发的。\\"
+        ],
+        "new_display_lines": [
+          "虽然想不起紫苑小姐是谁，但这台机器",
+          "毫无疑问是和紫苑小姐共同开发的。\\"
+        ],
+        "old_stored_cp932_hex": "e2f49152917a95738b4e8af389a58fac88b790a5e4d981439241e6a291e48af78aed9f7c9dd98b5ee7bd90a598618af389a58fac88b78ba493af9acc9566934981425c",
+        "new_stored_cp932_hex": "e2f49152917a95738b4e8e8789918fac88b790a5e4d981439241e6a291e48af78aed9f7c9dd98b5ee7bd90a598618e8789918fac88b78ba493af9acc9566934981425c"
+      },
+      {
+        "entry": "story/battle/jpn/kohaku_win.txt",
+        "kind": "WIN",
+        "ordinal": 16,
+        "old_display_lines": [
+          "哦？AI出现奇怪的波动……",
+          "到底是什么呢？",
+          "下次请希翁小姐调查一下吧。"
+        ],
+        "new_display_lines": [
+          "哦？AI出现奇怪的波动……",
+          "到底是什么呢？",
+          "下次请紫苑小姐调查一下吧。"
+        ],
+        "old_stored_cp932_hex": "9a47814841498f6f9ef58aef89f693499467948081638163939e92ea90a58f598b6196ce814889ba8e9fe4ac8af389a58fac88b7e4db9da388ea89ba96738142",
+        "new_stored_cp932_hex": "9a47814841498f6f9ef58aef89f693499467948081638163939e92ea90a58f598b6196ce814889ba8e9fe4ac8e8789918fac88b7e4db9da388ea89ba96738142"
+      },
+      {
+        "entry": "story/battle/jpn/kohaku_win.txt",
+        "kind": "WIN",
+        "ordinal": 20,
+        "old_display_lines": [
+          "刚才的是希翁小姐？嗯――感觉不太一样。",
+          "总之，最先瞄准远野家地下的洞察力",
+          "不可小觑。越来越有意思了哦――♪"
+        ],
+        "new_display_lines": [
+          "刚才的是紫苑小姐？嗯――感觉不太一样。",
+          "总之，最先瞄准远野家地下的洞察力",
+          "不可小觑。越来越有意思了哦――♪"
+        ],
+        "old_stored_cp932_hex": "939f8dcb934990a58af389a58fac88b78148995f815c815c8ab4e393957391be88ea9db381429b51945681438dc590e69f988f79e6a696ec89c6926e89ba934993b48e4097cd957389c28face3968142897a9788897a974c88d38e7697b99a47815c815c81f4",
+        "new_stored_cp932_hex": "939f8dcb934990a58e8789918fac88b78148995f815c815c8ab4e393957391be88ea9db381429b51945681438dc590e69f988f79e6a696ec89c6926e89ba934993b48e4097cd957389c28face3968142897a9788897a974c88d38e7697b99a47815c815c81f4"
+      },
+      {
+        "entry": "story/battle/jpn/mech_and_kohaku08.txt",
+        "kind": "MD",
+        "ordinal": 2,
+        "old_display_lines": [
+          "让希翁小姐制造的逻辑性自爆兵器……",
+          "损失一台机械翡翠实在可惜，",
+          "但为了胜利不得已。\\"
+        ],
+        "new_display_lines": [
+          "让紫苑小姐制造的逻辑性自爆兵器……",
+          "损失一台机械翡翠实在可惜，",
+          "但为了胜利不得已。\\"
+        ],
+        "old_stored_cp932_hex": "e3aa8af389a58fac88b790a791a29349e6c5e68a90ab8ea9949a95ba8aed816381639bef8eb888ea91e48af78a42e3c590899a698ddd89c290c9814392418ab297b9e29a9798957393be9bdf81425c",
+        "new_stored_cp932_hex": "e3aa8e8789918fac88b790a791a29349e6c5e68a90ab8ea9949a95ba8aed816381639bef8eb888ea91e48af78a42e3c590899a698ddd89c290c9814392418ab297b9e29a9798957393be9bdf81425c"
+      },
+      {
+        "entry": "story/battle/jpn/mech_and_kohaku08.txt",
+        "kind": "MD",
+        "ordinal": 22,
+        "old_display_lines": [
+          "希翁小姐曾为，",
+          "“我的莉兹不可能那么糟糕”",
+          "而低落，现在也能理解了……\\"
+        ],
+        "new_display_lines": [
+          "紫苑小姐曾为，",
+          "“我的莉兹不可能那么糟糕”",
+          "而低落，现在也能理解了……\\"
+        ],
+        "old_stored_cp932_hex": "8af389a58fac88b7915c8ab28143816789e49349e4bb92d6957389c2945c93df8b61918ce16181688ea792e1978e81439ef58ddd96e7945c979d89f097b9816381635c",
+        "new_stored_cp932_hex": "8e8789918fac88b7915c8ab28143816789e49349e4bb92d6957389c2945c93df8b61918ce16181688ea792e1978e81439ef58ddd96e7945c979d89f097b9816381635c"
+      },
+      {
+        "entry": "story/battle/jpn/mech_and_kohaku_win.txt",
+        "kind": "WIN",
+        "ordinal": 12,
+        "old_display_lines": [
+          "②如何，机械翡翠的完成度。",
+          "全是希翁小姐提供技术的成果！",
+          "③创造者，希翁。",
+          "希望下次更新控制程序。"
+        ],
+        "new_display_lines": [
+          "②如何，机械翡翠的完成度。",
+          "全是紫苑小姐提供技术的成果！",
+          "③创造者，紫苑。",
+          "希望下次更新控制程序。"
+        ],
+        "old_stored_cp932_hex": "8741944089bd81438af78a42e3c5908993498aae90ac93788142915390a58af389a58fac88b792f18b9f8b5a9d6e934990ac89ca8149874293a391a28ed281438af389a581428af3965d89ba8e9f8d5890568d5490a792f68f988142",
+        "new_stored_cp932_hex": "8741944089bd81438af78a42e3c5908993498aae90ac93788142915390a58e8789918fac88b792f18b9f8b5a9d6e934990ac89ca8149874293a391a28ed281438e87899181428af3965d89ba8e9f8d5890568d5490a792f68f988142"
+      },
+      {
+        "entry": "story/battle/jpn/neco08.txt",
+        "kind": "MD",
+        "ordinal": 6,
+        "old_display_lines": [
+          "大哥，你是那个吧？认真派的角色",
+          "吧？你再缠着我，就会跟那个傲娇一样",
+          "被送去巷弄同盟哦？\\"
+        ],
+        "new_display_lines": [
+          "大哥，你是那个吧？认真派的角色",
+          "吧？你再缠着我，就会跟那个傲娇一样",
+          "被送去小巷子同盟哦？\\"
+        ],
+        "old_stored_cp932_hex": "91e59a46814391d790a593df98a296738148e39d905e946893498a7090469673814891d78dc4e246928589e481438f4189efe6ee93df98a298fc9a6188ea9db394ed91978b8e8d4a984d93af96bf9a4781485c",
+        "new_stored_cp932_hex": "91e59a46814391d790a593df98a296738148e39d905e946893498a7090469673814891d78dc4e246928589e481438f4189efe6ee93df98a298fc9a6188ea9db394ed91978b8e8fac8d4a8e7193af96bf9a4781485c"
+      },
+      {
+        "entry": "story/battle/jpn/neco08.txt",
+        "kind": "MD",
+        "ordinal": 7,
+        "old_display_lines": [
+          "……我正想加入那个巷弄同盟。",
+          "还有，我也不算什么认真派。\\"
+        ],
+        "new_display_lines": [
+          "……我正想加入那个小巷子同盟。",
+          "还有，我也不算什么认真派。\\"
+        ],
+        "old_stored_cp932_hex": "8163816389e490b3917a89c193fc93df98a28d4a984d93af96bf8142e69b974c814389e496e795738e5a8f598b61e39d905e946881425c",
+        "new_stored_cp932_hex": "8163816389e490b3917a89c193fc93df98a28fac8d4a8e7193af96bf8142e69b974c814389e496e795738e5a8f598b61e39d905e946881425c"
+      },
+      {
+        "entry": "story/battle/jpn/nero09.txt",
+        "kind": "MD",
+        "ordinal": 1,
+        "old_display_lines": [
+          "……你不是希翁·艾尔特纳姆。",
+          "而是作为被塔塔利吞噬的人类之魂，",
+          "在塔塔利之中正确成长后的姿态吗。\\"
+        ],
+        "new_display_lines": [
+          "……你不是紫苑·艾尔特纳姆。",
+          "而是作为被塔塔利吞噬的人类之魂，",
+          "在塔塔利之中正确成长后的姿态吗。\\"
+        ],
+        "old_stored_cp932_hex": "8163816391d7957390a58af389a589a6e4889a9393c1e18e9b4781428ea790a58dec8ab294ed938393839798966d9a839349906ce15d94568db081438ddd9383938397989456928690b39fc890ace7ab8d4093498e709b4b95f781425c",
+        "new_stored_cp932_hex": "8163816391d7957390a58e87899189a6e4889a9393c1e18e9b4781428ea790a58dec8ab294ed938393839798966d9a839349906ce15d94568db081438ddd9383938397989456928690b39fc890ace7ab8d4093498e709b4b95f781425c"
+      },
+      {
+        "entry": "story/battle/jpn/p_ciel_win.txt",
+        "kind": "WIN",
+        "ordinal": 27,
+        "old_display_lines": [
+          "由拟似月灵子理论构成的演算器……",
+          "与我们完全不同，是科学与魔术的融合吗。",
+          "希翁·艾尔特纳姆·阿特拉西亚的处置暂缓。",
+          "她似乎仍有未知的价值。"
+        ],
+        "new_display_lines": [
+          "由拟似月灵子理论构成的演算器……",
+          "与我们完全不同，是科学与魔术的融合吗。",
+          "紫苑·艾尔特纳姆·阿特拉西亚的处置暂缓。",
+          "她似乎仍有未知的价值。"
+        ],
+        "old_stored_cp932_hex": "97529bcd8e978c8e9ea28e71979de3bc9d9690ac934989898e5a8aed81638163975e89e48fc38aae9153957393af814390a589c88a77975e96829d6e9349975a8d8795f781428af389a589a6e4889a9393c1e18e9b4789a688a293c19d6690bc8de1934999d592759d6ae1e681429a538e978cc198b9974c96a2926d934998c192598142",
+        "new_stored_cp932_hex": "97529bcd8e978c8e9ea28e71979de3bc9d9690ac934989898e5a8aed81638163975e89e48fc38aae9153957393af814390a589c88a77975e96829d6e9349975a8d8795f781428e87899189a6e4889a9393c1e18e9b4789a688a293c19d6690bc8de1934999d592759d6ae1e681429a538e978cc198b9974c96a2926d934998c192598142"
+      },
+      {
+        "entry": "story/battle/jpn/p_ciel_win.txt",
+        "kind": "WIN",
+        "ordinal": 30,
+        "old_display_lines": [
+          "真是给什么人什么刀。",
+          "这些怪生物就用火葬仪式烧尽……",
+          "问题是这个容易上当的圣堂骑士。",
+          "让希翁小姐好好训她一顿吧。"
+        ],
+        "new_display_lines": [
+          "真是给什么人什么刀。",
+          "这些怪生物就用火葬仪式烧尽……",
+          "问题是这个容易上当的圣堂骑士。",
+          "让紫苑小姐好好训她一顿吧。"
+        ],
+        "old_stored_cp932_hex": "905e90a5e1b28f598b61906c8f598b6193818142e6a28db189f690b695a88f41977089ce91928fb98eae9ec5907381638163e7bded5190a5e6a298a2976588d58fe39396934999a493b0edb28e6d8142e3aa8af389a58fac88b78d448d44e3ad9a5388eaea6e96738142",
+        "new_stored_cp932_hex": "905e90a5e1b28f598b61906c8f598b6193818142e6a28db189f690b695a88f41977089ce91928fb98eae9ec5907381638163e7bded5190a5e6a298a2976588d58fe39396934999a493b0edb28e6d8142e3aa8e8789918fac88b78d448d44e3ad9a5388eaea6e96738142"
+      },
+      {
+        "entry": "story/battle/jpn/ries08.txt",
+        "kind": "MD",
+        "ordinal": 1,
+        "old_display_lines": [
+          "……啊。",
+          "原来如此，希翁。\\"
+        ],
+        "new_display_lines": [
+          "……啊。",
+          "原来如此，紫苑。\\"
+        ],
+        "old_stored_cp932_hex": "8163816398d681428cb4978894408d9f81438af389a581425c",
+        "new_stored_cp932_hex": "8163816398d681428cb4978894408d9f81438e87899181425c"
+      },
+      {
+        "entry": "story/battle/jpn/ries08.txt",
+        "kind": "MD",
+        "ordinal": 6,
+        "old_display_lines": [
+          "阿特拉斯的炼金术师，",
+          "希翁·艾尔特纳姆·阿特拉西亚。\\"
+        ],
+        "new_display_lines": [
+          "阿特拉斯的炼金术师，",
+          "紫苑·艾尔特纳姆·阿特拉西亚。\\"
+        ],
+        "old_stored_cp932_hex": "88a293c19d668e7a93499eab8be09d6e9aaa81438af389a589a6e4889a9393c1e18e9b4789a688a293c19d6690bc8de181425c",
+        "new_stored_cp932_hex": "88a293c19d668e7a93499eab8be09d6e9aaa81438e87899189a6e4889a9393c1e18e9b4789a688a293c19d6690bc8de181425c"
+      },
+      {
+        "entry": "story/battle/jpn/ries09.txt",
+        "kind": "MD",
+        "ordinal": 6,
+        "old_display_lines": [
+          "你是希翁……",
+          "不，是被塔塔利吞没的希翁残骸吗。\\"
+        ],
+        "new_display_lines": [
+          "你是紫苑……",
+          "不，是被塔塔利吞没的紫苑残骸吗。\\"
+        ],
+        "old_stored_cp932_hex": "91d790a58af389a5816381639573814390a594ed938393839798966d967693498af389a58e638a5b95f781425c",
+        "new_stored_cp932_hex": "91d790a58e878991816381639573814390a594ed938393839798966d967693498e8789918e638a5b95f781425c"
+      },
+      {
+        "entry": "story/battle/jpn/ries09.txt",
+        "kind": "MD",
+        "ordinal": 16,
+        "old_display_lines": [
+          "希翁·艾尔特纳姆·阿特拉西亚的目的是",
+          "守护未来。为了守护灵长免于不可避免的毁灭，",
+          "进行未来预测，并确立其救助方法。\\"
+        ],
+        "new_display_lines": [
+          "紫苑·艾尔特纳姆·阿特拉西亚的目的是",
+          "守护未来。为了守护灵长免于不可避免的毁灭，",
+          "进行未来预测，并确立其救助方法。\\"
+        ],
+        "old_stored_cp932_hex": "8af389a589a6e4889a9393c1e18e9b4789a688a293c19d6690bc8de1934996da934990a58ee79bbb96a2978881428ab297b98ee79bbb9ea2e7ab96c698b0957389c294f096c693499dd59e9d8143e6a58d7396a29788ea909e5281439bf39fc897a791b48b7e8f9595fb964081425c",
+        "new_stored_cp932_hex": "8e87899189a6e4889a9393c1e18e9b4789a688a293c19d6690bc8de1934996da934990a58ee79bbb96a2978881428ab297b98ee79bbb9ea2e7ab96c698b0957389c294f096c693499dd59e9d8143e6a58d7396a29788ea909e5281439bf39fc897a791b48b7e8f9595fb964081425c"
+      },
+      {
+        "entry": "story/battle/jpn/ries09.txt",
+        "kind": "MD",
+        "ordinal": 20,
+        "old_display_lines": [
+          "但那不对，希翁。",
+          "若你要彻底成为机器，为他人效劳也无妨。",
+          "但你仍是人的模样。\\"
+        ],
+        "new_display_lines": [
+          "但那不对，紫苑。",
+          "若你要彻底成为机器，为他人效劳也无妨。",
+          "但你仍是人的模样。\\"
+        ],
+        "old_stored_cp932_hex": "924193df95739a8781438af389a581428ee191d797769ae792ea90ac8ab28af78aed81438ab291bc906c9dc1949f96e79dd996578142924191d798b990a5906c934996cd9db381425c",
+        "new_stored_cp932_hex": "924193df95739a8781438e87899181428ee191d797769ae792ea90ac8ab28af78aed81438ab291bc906c9dc1949f96e79dd996578142924191d798b990a5906c934996cd9db381425c"
+      },
+      {
+        "entry": "story/battle/jpn/riesEX_win.txt",
+        "kind": "WIN",
+        "ordinal": 7,
+        "old_display_lines": [
+          "这次是我赢了，希翁。",
+          "…………话说回来。若你有时间，能不能教我",
+          "日语？……那个，汉字的读写我实在",
+          "怎么都搞不明白……"
+        ],
+        "new_display_lines": [
+          "这次是我赢了，紫苑。",
+          "…………话说回来。若你有时间，能不能教我",
+          "日语？……那个，汉字的读写我实在",
+          "怎么都搞不明白……"
+        ],
+        "old_stored_cp932_hex": "e6a28e9f90a589e4e5d897b981438af389a581428163816381638163e3f1e49389f1978881428ee191d7974c9cdce7c38143945c9573945c8bb389e493fae48681488163816393df98a281439dde8e9a9349e4be8eca89e49a698ddd9c838b6193739ca1957396be949281638163",
+        "new_stored_cp932_hex": "e6a28e9f90a589e4e5d897b981438e87899181428163816381638163e3f1e49389f1978881428ee191d7974c9cdce7c38143945c9573945c8bb389e493fae48681488163816393df98a281439dde8e9a9349e4be8eca89e49a698ddd9c838b6193739ca1957396be949281638163"
+      },
+      {
+        "entry": "story/battle/jpn/riesEX_win.txt",
+        "kind": "WIN",
+        "ordinal": 8,
+        "old_display_lines": [
+          "――安眠吧，希翁。",
+          "不知日光的人生毫无价值。",
+          "你的生存，会将这片大地化作地狱。"
+        ],
+        "new_display_lines": [
+          "――安眠吧，紫苑。",
+          "不知日光的人生毫无价值。",
+          "你的生存，会将这片大地化作地狱。"
+        ],
+        "old_stored_cp932_hex": "815c815c88c096b0967381438af389a581429573926d93fa8cf59349906c90b69f7c9dd998c19259814291d7934990b691b6814389ef8fabe6a295d091e5926e89bb8dec926e9ee58142",
+        "new_stored_cp932_hex": "815c815c88c096b0967381438e87899181429573926d93fa8cf59349906c90b69f7c9dd998c19259814291d7934990b691b6814389ef8fabe6a295d091e5926e89bb8dec926e9ee58142"
+      },
+      {
+        "entry": "story/battle/jpn/riesEX_win.txt",
+        "kind": "WIN",
+        "ordinal": 11,
+        "old_display_lines": [
+          "你就是远野志贵吗。",
+          "倒也不是和你有什么特别的仇……",
+          "不过果然还是再稍微揍你一顿吧……",
+          "但希翁和五月会生气吧……"
+        ],
+        "new_display_lines": [
+          "你就是远野志贵吗。",
+          "倒也不是和你有什么特别的仇……",
+          "不过果然还是再稍微揍你一顿吧……",
+          "但紫苑和五月会生气吧……"
+        ],
+        "old_stored_cp932_hex": "91d78f4190a5e6a696ec8e75e5a795f78142937c96e7957390a5986191d7974c8f598b6193c193ba93498b77816381639573e69789ca9152e69b90a58dc4e26394f79c7891d788eaea6e96738163816392418af389a598618cdc8c8e89ef90b69f83967381638163",
+        "new_stored_cp932_hex": "91d78f4190a5e6a696ec8e75e5a795f78142937c96e7957390a5986191d7974c8f598b6193c193ba93498b77816381639573e69789ca9152e69b90a58dc4e26394f79c7891d788eaea6e96738163816392418e87899198618cdc8c8e89ef90b69f83967381638163"
+      },
+      {
+        "entry": "story/battle/jpn/riesEX_win.txt",
+        "kind": "WIN",
+        "ordinal": 39,
+        "old_display_lines": [
+          "⑤竟然会变成这样……啊啊，这下真成",
+          "小偷了……该怎么向希翁解释……",
+          "④草莓姐真是一板一眼啊。",
+          "属于那种会瞒不住老婆秘密的人？"
+        ],
+        "new_display_lines": [
+          "⑤竟然会变成这样……啊啊，这下真成",
+          "小偷了……该怎么向紫苑解释……",
+          "④草莓姐真是一板一眼啊。",
+          "属于那种会瞒不住老婆秘密的人？"
+        ],
+        "old_stored_cp932_hex": "8744e8ed915289ef956790ace6a29db38163816398d698d68143e6a289ba905e90ac8fac929097b981638163e4659c838b618cfc8af389a589f0e6d58163816387439190e49688b7905e90a588ea94c288ea8ae198d6814291ae98b093df9fcd89ef9fa695738f5a9856946b94e996a79349906c8148",
+        "new_stored_cp932_hex": "8744e8ed915289ef956790ace6a29db38163816398d698d68143e6a289ba905e90ac8fac929097b981638163e4659c838b618cfc8e87899189f0e6d58163816387439190e49688b7905e90a588ea94c288ea8ae198d6814291ae98b093df9fcd89ef9fa695738f5a9856946b94e996a79349906c8148"
+      },
+      {
+        "entry": "story/battle/jpn/ries_ending.txt",
+        "kind": "XM",
+        "ordinal": 2,
+        "old_display_lines": [
+          "……你在颠倒的时间中，被近乎永恒的噩梦",
+          "纠缠着啊，希翁。\\"
+        ],
+        "new_display_lines": [
+          "……你在颠倒的时间中，被近乎永恒的噩梦",
+          "纠缠着啊，紫苑。\\"
+        ],
+        "old_stored_cp932_hex": "8163816391d78ddded59937c93499cdce7c39286814394ed8bdf8cc189698d50934999719aebe16be246928598d681438af389a581425c",
+        "new_stored_cp932_hex": "8163816391d78ddded59937c93499cdce7c39286814394ed8bdf8cc189698d50934999719aebe16be246928598d681438e87899181425c"
+      },
+      {
+        "entry": "story/battle/jpn/ries_ending.txt",
+        "kind": "XM",
+        "ordinal": 5,
+        "old_display_lines": [
+          "――啊，你的桩刺进来了。",
+          "……太好了。残骸在我这一边，如今的希翁应该仍在",
+          "与吸血鬼化战斗吧。\\"
+        ],
+        "new_display_lines": [
+          "――啊，你的桩刺进来了。",
+          "……太好了。残骸在我这一边，如今的紫苑应该仍在",
+          "与吸血鬼化战斗吧。\\"
+        ],
+        "old_stored_cp932_hex": "815c815c98d6814391d793499db98e68e6a5978897b981428163816391be8d4497b981428e638a5b8ddd89e4e6a288eae692814394408da193498af389a59abbe46598b98ddd975e8b7a8c8c8b5389bb9b94936c967381425c",
+        "new_stored_cp932_hex": "815c815c98d6814391d793499db98e68e6a5978897b981428163816391be8d4497b981428e638a5b8ddd89e4e6a288eae692814394408da193498e8789919abbe46598b98ddd975e8b7a8c8c8b5389bb9b94936c967381425c"
+      },
+      {
+        "entry": "story/battle/jpn/ries_ending.txt",
+        "kind": "XM",
+        "ordinal": 7,
+        "old_display_lines": [
+          "……也是。",
+          "抱歉，希翁。我又一次用这双手，贯穿了你。\\"
+        ],
+        "new_display_lines": [
+          "……也是。",
+          "抱歉，紫苑。我又一次用这双手，贯穿了你。\\"
+        ],
+        "old_stored_cp932_hex": "8163816396e790a5814295f89f5d81438af389a5814289e4969488ea8e9f9770e6a2916f8ee88143e59990fa97b991d781425c",
+        "new_stored_cp932_hex": "8163816396e790a5814295f89f5d81438e878991814289e4969488ea8e9f9770e6a2916f8ee88143e59990fa97b991d781425c"
+      },
+      {
+        "entry": "story/battle/jpn/ries_ending.txt",
+        "kind": "XM",
+        "ordinal": 10,
+        "old_display_lines": [
+          "若真如此，我很高兴。",
+          "……来，睡吧，希翁。",
+          "这次别再被噩梦缠住。\\"
+        ],
+        "new_display_lines": [
+          "若真如此，我很高兴。",
+          "……来，睡吧，紫苑。",
+          "这次别再被噩梦缠住。\\"
+        ],
+        "old_stored_cp932_hex": "8ee1905e94408d9f814389e49c6b8d8292bd814281638163978881439087967381438af389a58142e6a28e9f93ba8dc494ed99719aebe2468f5a81425c",
+        "new_stored_cp932_hex": "8ee1905e94408d9f814389e49c6b8d8292bd814281638163978881439087967381438e8789918142e6a28e9f93ba8dc494ed99719aebe2468f5a81425c"
+      },
+      {
+        "entry": "story/battle/jpn/ries_ending.txt",
+        "kind": "XM",
+        "ordinal": 14,
+        "old_display_lines": [
+          "……再见了，希翁。",
+          "若能如愿，在这片黑暗之后，",
+          "愿能与你重逢――\\"
+        ],
+        "new_display_lines": [
+          "……再见了，紫苑。",
+          "若能如愿，在这片黑暗之后，",
+          "愿能与你重逢――\\"
+        ],
+        "old_stored_cp932_hex": "816381638dc4e37397b981438af389a581428ee1945c94409cc381438ddde6a295d0eeec88c394568d4081439cc3945c975e91d78f6488a7815c815c5c",
+        "new_stored_cp932_hex": "816381638dc4e37397b981438e87899181428ee1945c94409cc381438ddde6a295d0eeec88c394568d4081439cc3945c975e91d78f6488a7815c815c5c"
+      },
+      {
+        "entry": "story/battle/jpn/ries_win.txt",
+        "kind": "WIN",
+        "ordinal": 7,
+        "old_display_lines": [
+          "这次是我赢了，希翁。",
+          "…………话说回来。若你有时间，能不能教我",
+          "日语？……那个，汉字的读写我实在",
+          "怎么都搞不明白……"
+        ],
+        "new_display_lines": [
+          "这次是我赢了，紫苑。",
+          "…………话说回来。若你有时间，能不能教我",
+          "日语？……那个，汉字的读写我实在",
+          "怎么都搞不明白……"
+        ],
+        "old_stored_cp932_hex": "e6a28e9f90a589e4e5d897b981438af389a581428163816381638163e3f1e49389f1978881428ee191d7974c9cdce7c38143945c9573945c8bb389e493fae48681488163816393df98a281439dde8e9a9349e4be8eca89e49a698ddd9c838b6193739ca1957396be949281638163",
+        "new_stored_cp932_hex": "e6a28e9f90a589e4e5d897b981438e87899181428163816381638163e3f1e49389f1978881428ee191d7974c9cdce7c38143945c9573945c8bb389e493fae48681488163816393df98a281439dde8e9a9349e4be8eca89e49a698ddd9c838b6193739ca1957396be949281638163"
+      },
+      {
+        "entry": "story/battle/jpn/ries_win.txt",
+        "kind": "WIN",
+        "ordinal": 8,
+        "old_display_lines": [
+          "――安眠吧，希翁。",
+          "不知日光的人生毫无价值。",
+          "你的生存，会将这片大地化作地狱。"
+        ],
+        "new_display_lines": [
+          "――安眠吧，紫苑。",
+          "不知日光的人生毫无价值。",
+          "你的生存，会将这片大地化作地狱。"
+        ],
+        "old_stored_cp932_hex": "815c815c88c096b0967381438af389a581429573926d93fa8cf59349906c90b69f7c9dd998c19259814291d7934990b691b6814389ef8fabe6a295d091e5926e89bb8dec926e9ee58142",
+        "new_stored_cp932_hex": "815c815c88c096b0967381438e87899181429573926d93fa8cf59349906c90b69f7c9dd998c19259814291d7934990b691b6814389ef8fabe6a295d091e5926e89bb8dec926e9ee58142"
+      },
+      {
+        "entry": "story/battle/jpn/ries_win.txt",
+        "kind": "WIN",
+        "ordinal": 11,
+        "old_display_lines": [
+          "你就是远野志贵吗。",
+          "倒也不是和你有什么特别的仇……",
+          "不过果然还是再稍微揍你一顿吧……",
+          "但希翁和五月会生气吧……"
+        ],
+        "new_display_lines": [
+          "你就是远野志贵吗。",
+          "倒也不是和你有什么特别的仇……",
+          "不过果然还是再稍微揍你一顿吧……",
+          "但紫苑和五月会生气吧……"
+        ],
+        "old_stored_cp932_hex": "91d78f4190a5e6a696ec8e75e5a795f78142937c96e7957390a5986191d7974c8f598b6193c193ba93498b77816381639573e69789ca9152e69b90a58dc4e26394f79c7891d788eaea6e96738163816392418af389a598618cdc8c8e89ef90b69f83967381638163",
+        "new_stored_cp932_hex": "91d78f4190a5e6a696ec8e75e5a795f78142937c96e7957390a5986191d7974c8f598b6193c193ba93498b77816381639573e69789ca9152e69b90a58dc4e26394f79c7891d788eaea6e96738163816392418e87899198618cdc8c8e89ef90b69f83967381638163"
+      },
+      {
+        "entry": "story/battle/jpn/ries_win.txt",
+        "kind": "WIN",
+        "ordinal": 46,
+        "old_display_lines": [
+          "长久以来，让你独自受苦了。",
+          "……安眠吧，希翁。我也很快会前往炼狱。",
+          "――没错。等这个夜晚破晓时。"
+        ],
+        "new_display_lines": [
+          "长久以来，让你独自受苦了。",
+          "……安眠吧，紫苑。我也很快会前往炼狱。",
+          "――没错。等这个夜晚破晓时。"
+        ],
+        "old_stored_cp932_hex": "e7ab8b7688c897888143e3aa91d793c68ea98ef38bea97b981428163816388c096b0967381438af389a5814289e496e79c6b89f589ef914f899d9eab9ee58142815c815c9676e78f81429399e6a298a296e99d4b946a9ce59cdc8142",
+        "new_stored_cp932_hex": "e7ab8b7688c897888143e3aa91d793c68ea98ef38bea97b981428163816388c096b0967381438e878991814289e496e79c6b89f589ef914f899d9eab9ee58142815c815c9676e78f81429399e6a298a296e99d4b946a9ce59cdc8142"
+      },
+      {
+        "entry": "story/battle/jpn/ries_win.txt",
+        "kind": "WIN",
+        "ordinal": 47,
+        "old_display_lines": [
+          "……是我赢了吗。虽说也想过你能做到，但连我都无法打倒",
+          "的话，也不可能战胜奥西里斯……不。",
+          "在遇到那东西前消失，或许对你来说",
+          "反而是幸福吧，希翁。"
+        ],
+        "new_display_lines": [
+          "……是我赢了吗。虽说也想过你能做到，但连我都无法打倒",
+          "的话，也不可能战胜奥西里斯……不。",
+          "在遇到那东西前消失，或许对你来说",
+          "反而是幸福吧，紫苑。"
+        ],
+        "old_stored_cp932_hex": "8163816390a589e4e5d897b995f78142e2f4e49396e7917ae69791d7945c98f4939e81439241e6af89e493739dd9964091c5937c9349e3f1814396e7957389c2945c9b94e29a899c90bc97a28e7a81638163957381428ddd8bf6939e93df89da90bc914f8fc18eb8814388bde3ba9a8791d79788e49394bd8ea790a58d4b959f967381438af389a58142",
+        "new_stored_cp932_hex": "8163816390a589e4e5d897b995f78142e2f4e49396e7917ae69791d7945c98f4939e81439241e6af89e493739dd9964091c5937c9349e3f1814396e7957389c2945c9b94e29a899c90bc97a28e7a81638163957381428ddd8bf6939e93df89da90bc914f8fc18eb8814388bde3ba9a8791d79788e49394bd8ea790a58d4b959f967381438e8789918142"
+      },
+      {
+        "entry": "story/battle/jpn/s_akiha_win.txt",
+        "kind": "WIN",
+        "ordinal": 15,
+        "old_display_lines": [
+          "希翁。和琥珀好好相处是没问题，",
+          "但别玩得太过火了。",
+          "琥珀她，你知道的……一旦让她发现破绽，",
+          "就会把你整个人一口吞下去、彻底收服。"
+        ],
+        "new_display_lines": [
+          "紫苑。和琥珀好好相处是没问题，",
+          "但别玩得太过火了。",
+          "琥珀她，你知道的……一旦让她发现破绽，",
+          "就会把你整个人一口吞下去、彻底收服。"
+        ],
+        "old_stored_cp932_hex": "8af389a581429861e0e6e0df8d448d44918a99d590a59676e7bded518143924193ba8adf93be91bee69789ce97b98142e0e6e0df9a53814391d7926d93b993498163816388ea9255e3aa9a5395669ef5946ae1da81438f4189ef946391d790ae98a2906c88ea8cfb966d89ba8b8e81419ae792ea9dbe959e8142",
+        "new_stored_cp932_hex": "8e87899181429861e0e6e0df8d448d44918a99d590a59676e7bded518143924193ba8adf93be91bee69789ce97b98142e0e6e0df9a53814391d7926d93b993498163816388ea9255e3aa9a5395669ef5946ae1da81438f4189ef946391d790ae98a2906c88ea8cfb966d89ba8b8e81419ae792ea9dbe959e8142"
+      },
+      {
+        "entry": "story/battle/jpn/satsuki04.txt",
+        "kind": "MD",
+        "ordinal": 12,
+        "old_display_lines": [
+          "叫作巷弄同盟。大哥是新来的，",
+          "那就是最晚辈，没问题吧？\\"
+        ],
+        "new_display_lines": [
+          "叫作小巷子同盟。大哥是新来的，",
+          "那就是最晚辈，没问题吧？\\"
+        ],
+        "old_stored_cp932_hex": "8ba98dec8d4a984d93af96bf814291e59a4690a5905697889349814393df8f4190a58dc59d4be68681439676e7bded51967381485c",
+        "new_stored_cp932_hex": "8ba98dec8fac8d4a8e7193af96bf814291e59a4690a5905697889349814393df8f4190a58dc59d4be68681439676e7bded51967381485c"
+      },
+      {
+        "entry": "story/battle/jpn/satsuki08.txt",
+        "kind": "MD",
+        "ordinal": 4,
+        "old_display_lines": [
+          "（……感觉像是好人……？）",
+          "那个，这里有个紫头发的女孩子，",
+          "来过吗？她叫希翁。\\"
+        ],
+        "new_display_lines": [
+          "（……感觉像是好人……？）",
+          "那个，这里有个紫头发的女孩子，",
+          "来过吗？她叫紫苑。\\"
+        ],
+        "old_stored_cp932_hex": "8169816381638ab4e393919c90a58d44906c816381638148816a93df98a28143e6a297a2974c98a28e8799ec956693498f979b778e7181439788e69795f781489a538ba98af389a581425c",
+        "new_stored_cp932_hex": "8169816381638ab4e393919c90a58d44906c816381638148816a93df98a28143e6a297a2974c98a28e8799ec956693498f979b778e7181439788e69795f781489a538ba98e87899181425c"
+      },
+      {
+        "entry": "story/battle/jpn/satsuki08.txt",
+        "kind": "MD",
+        "ordinal": 5,
+        "old_display_lines": [
+          "！……抱歉，前方不是像你这样的",
+          "少女该踏足的地方。",
+          "若你是希翁的熟人，就更是如此。\\"
+        ],
+        "new_display_lines": [
+          "！……抱歉，前方不是像你这样的",
+          "少女该踏足的地方。",
+          "若你是紫苑的熟人，就更是如此。\\"
+        ],
+        "old_stored_cp932_hex": "81498163816395f89f5d8143914f95fb957390a5919c91d7e6a29db393498fad8f97e46593a591ab9349926e95fb81428ee191d790a58af389a593498f6e906c81438f418d5890a594408d9f81425c",
+        "new_stored_cp932_hex": "81498163816395f89f5d8143914f95fb957390a5919c91d7e6a29db393498fad8f97e46593a591ab9349926e95fb81428ee191d790a58e87899193498f6e906c81438f418d5890a594408d9f81425c"
+      },
+      {
+        "entry": "story/battle/jpn/satsuki08.txt",
+        "kind": "MD",
+        "ordinal": 6,
+        "old_display_lines": [
+          "你也认识希翁……！？",
+          "总、总之，如果不让我过去，我就强行",
+          "过去……！\\"
+        ],
+        "new_display_lines": [
+          "你也认识紫苑……！？",
+          "总、总之，如果不让我过去，我就强行",
+          "过去……！\\"
+        ],
+        "old_stored_cp932_hex": "91d796e7e39de3cb8af389a581638163814981489b5181419b5194568143944089ca9573e3aa89e4e6978b8e814389e48f419ada8d73e6978b8e8163816381495c",
+        "new_stored_cp932_hex": "91d796e7e39de3cb8e87899181638163814981489b5181419b5194568143944089ca9573e3aa89e4e6978b8e814389e48f419ada8d73e6978b8e8163816381495c"
+      },
+      {
+        "entry": "story/battle/jpn/satsuki09.txt",
+        "kind": "MD",
+        "ordinal": 1,
+        "old_display_lines": [
+          "啊、那不是希翁。",
+          "复杂的事先不管，你就是把街上的人",
+          "藏起来的元凶吧……！\\"
+        ],
+        "new_display_lines": [
+          "啊、那不是紫苑。",
+          "复杂的事先不管，你就是把街上的人",
+          "藏起来的元凶吧……！\\"
+        ],
+        "old_stored_cp932_hex": "98d6814193df957390a58af389a5814299db9d8593498e9690e695738ac7814391d78f4190a594638a588fe39349906ce5558b4e978893498cb38ba596738163816381495c",
+        "new_stored_cp932_hex": "98d6814193df957390a58e878991814299db9d8593498e9690e695738ac7814391d78f4190a594638a588fe39349906ce5558b4e978893498cb38ba596738163816381495c"
+      },
+      {
+        "entry": "story/battle/jpn/satsuki09.txt",
+        "kind": "MD",
+        "ordinal": 8,
+        "old_display_lines": [
+          "嗯，加油啊我自己！",
+          "莉兹小姐也拜托过我，我要打倒你，",
+          "夺回希翁！\\"
+        ],
+        "new_display_lines": [
+          "嗯，加油啊我自己！",
+          "莉兹小姐也拜托过我，我要打倒你，",
+          "夺回紫苑！\\"
+        ],
+        "old_stored_cp932_hex": "995f814389c196fb98d689e48ea98cc88149e4bb92d68fac88b796e79d6091efe69789e4814389e4977691c5937c91d7814399f289f18af389a581495c",
+        "new_stored_cp932_hex": "995f814389c196fb98d689e48ea98cc88149e4bb92d68fac88b796e79d6091efe69789e4814389e4977691c5937c91d7814399f289f18e87899181495c"
+      },
+      {
+        "entry": "story/battle/jpn/satsuki_ending.txt",
+        "kind": "XM",
+        "ordinal": 2,
+        "old_display_lines": [
+          "……那点事有什么关系。",
+          "她要是来了，我会想办法。",
+          "希翁和五月，照自己想做的去做就好。\\"
+        ],
+        "new_display_lines": [
+          "……那点事有什么关系。",
+          "她要是来了，我会想办法。",
+          "紫苑和五月，照自己想做的去做就好。\\"
+        ],
+        "old_stored_cp932_hex": "8163816393df935f8e96974c8f598b6192ba8c6e81429a53977690a5978897b9814389e489ef917a9469964081428af389a598618cdc8c8e81438fc68ea98cc8917a98f493498b8e98f48f418d4481425c",
+        "new_stored_cp932_hex": "8163816393df935f8e96974c8f598b6192ba8c6e81429a53977690a5978897b9814389e489ef917a9469964081428e87899198618cdc8c8e81438fc68ea98cc8917a98f493498b8e98f48f418d4481425c"
+      },
+      {
+        "entry": "story/battle/jpn/satsuki_ending.txt",
+        "kind": "XM",
+        "ordinal": 5,
+        "old_display_lines": [
+          "……希翁太过分了。",
+          "只有我被排除在外。五月，",
+          "你也说句话啊。\\"
+        ],
+        "new_display_lines": [
+          "……紫苑太过分了。",
+          "只有我被排除在外。五月，",
+          "你也说句话啊。\\"
+        ],
+        "old_stored_cp932_hex": "816381638af389a591bee69795aa97b9814291fc974c89e494ed94728f9c8ddd8a4f81428cdc8c8e814391d796e7e4938be5e3f198d681425c",
+        "new_stored_cp932_hex": "816381638e87899191bee69795aa97b9814291fc974c89e494ed94728f9c8ddd8a4f81428cdc8c8e814391d796e7e4938be5e3f198d681425c"
+      },
+      {
+        "entry": "story/battle/jpn/satsuki_ending.txt",
+        "kind": "XM",
+        "ordinal": 7,
+        "old_display_lines": [
+          "有什么关系，希翁，有莉兹小姐在帮忙",
+          "不是很好吗。说到底，和我们不同，能在",
+          "白天到处活动的只有莉兹小姐呀？\\"
+        ],
+        "new_display_lines": [
+          "有什么关系，紫苑，有莉兹小姐在帮忙",
+          "不是很好吗。说到底，和我们不同，能在",
+          "白天到处活动的只有莉兹小姐呀？\\"
+        ],
+        "old_stored_cp932_hex": "974c8f598b6192ba8c6e81438af389a58143974ce4bb92d68fac88b78ddd9ab1965a957390a59c6b8d4495f78142e493939e92ea8143986189e48fc3957393af8143945c8ddd94929356939e99d58a889480934991fc974ce4bb92d68fac88b799de81485c",
+        "new_stored_cp932_hex": "974c8f598b6192ba8c6e81438e8789918143974ce4bb92d68fac88b78ddd9ab1965a957390a59c6b8d4495f78142e493939e92ea8143986189e48fc3957393af8143945c8ddd94929356939e99d58a889480934991fc974ce4bb92d68fac88b799de81485c"
+      },
+      {
+        "entry": "story/battle/jpn/satsuki_ending.txt",
+        "kind": "XM",
+        "ordinal": 9,
+        "old_display_lines": [
+          "谢谢你，五月。明白了吧，希翁。",
+          "你们没有筹钱的手段。",
+          "……虽说有，但实在不适合。\\"
+        ],
+        "new_display_lines": [
+          "谢谢你，五月。明白了吧，紫苑。",
+          "你们没有筹钱的手段。",
+          "……虽说有，但实在不适合。\\"
+        ],
+        "old_stored_cp932_hex": "e568e56891d781438cdc8c8e814296be949297b9967381438af389a5814291d78fc39676974ce148e74f93498ee89269814281638163e2f4e493974c814392419a698ddd9573e6b48d8781425c",
+        "new_stored_cp932_hex": "e568e56891d781438cdc8c8e814296be949297b9967381438e878991814291d78fc39676974ce148e74f93498ee89269814281638163e2f4e493974c814392419a698ddd9573e6b48d8781425c"
+      },
+      {
+        "entry": "story/battle/jpn/satsuki_ending.txt",
+        "kind": "XM",
+        "ordinal": 16,
+        "old_display_lines": [
+          "那是因为……你们两个，属于……那种类型。",
+          "我、希翁和五月，其实颇为相似。\\"
+        ],
+        "new_display_lines": [
+          "那是因为……你们两个，属于……那种类型。",
+          "我、紫苑和五月，其实颇为相似。\\"
+        ],
+        "old_stored_cp932_hex": "93df90a588f68ab28163816391d78fc38a5398a2814391ae98b08163816393df9fcde15d8c5e814289e481418af389a598618cdc8c8e814391b49a69ea9c8ab2918a8e9781425c",
+        "new_stored_cp932_hex": "93df90a588f68ab28163816391d78fc38a5398a2814391ae98b08163816393df9fcde15d8c5e814289e481418e87899198618cdc8c8e814391b49a69ea9c8ab2918a8e9781425c"
+      },
+      {
+        "entry": "story/battle/jpn/satsuki_ending.txt",
+        "kind": "XM",
+        "ordinal": 22,
+        "old_display_lines": [
+          "但我想保护希翁她们，是真心的。",
+          "我从以前起，就拿努力又坚强的女孩没办法。\\"
+        ],
+        "new_display_lines": [
+          "但我想保护紫苑她们，是真心的。",
+          "我从以前起，就拿努力又坚强的女孩没办法。\\"
+        ],
+        "old_stored_cp932_hex": "924189e4917a95db9bbb8af389a59a538fc3814390a5905e90539349814289e498b888c8914f8b4e81438f419d5c937797cd969499b09ada93498f979b7796769469964081425c",
+        "new_stored_cp932_hex": "924189e4917a95db9bbb8e8789919a538fc3814390a5905e90539349814289e498b888c8914f8b4e81438f419d5c937797cd969499b09ada93498f979b7796769469964081425c"
+      },
+      {
+        "entry": "story/battle/jpn/satsuki_ending.txt",
+        "kind": "XM",
+        "ordinal": 24,
+        "old_display_lines": [
+          "因为啊，希翁。",
+          "说到底，莉兹小姐没有希翁的话",
+          "就会消失，对吧？\\"
+        ],
+        "new_display_lines": [
+          "因为啊，紫苑。",
+          "说到底，莉兹小姐没有紫苑的话",
+          "就会消失，对吧？\\"
+        ],
+        "old_stored_cp932_hex": "88f68ab298d681438af389a58142e493939e92ea8143e4bb92d68fac88b79676974c8af389a59349e3f18f4189ef8fc18eb881439a87967381485c",
+        "new_stored_cp932_hex": "88f68ab298d681438e8789918142e493939e92ea8143e4bb92d68fac88b79676974c8e8789919349e3f18f4189ef8fc18eb881439a87967381485c"
+      },
+      {
+        "entry": "story/battle/jpn/satsuki_ending.txt",
+        "kind": "XM",
+        "ordinal": 25,
+        "old_display_lines": [
+          "那我们就永远是同伴。",
+          "加上白莲小姐，现在已经有四个人了，",
+          "新生巷弄同盟，打起精神干下去吧――！\\"
+        ],
+        "new_display_lines": [
+          "那我们就永远是同伴。",
+          "加上白莲小姐，现在已经有四个人了，",
+          "新生小巷子同盟，打起精神干下去吧――！\\"
+        ],
+        "old_stored_cp932_hex": "93df89e48fc38f418969e6a690a593af94ba814289c18fe39492e2d28fac88b781439ef58ddd9bdfe1a9974c8e6c98a2906c97b98143905690b68d4a984d93af96bf814391c58b4e90b8905f8ab189ba8b8e9673815c815c81495c",
+        "new_stored_cp932_hex": "93df89e48fc38f418969e6a690a593af94ba814289c18fe39492e2d28fac88b781439ef58ddd9bdfe1a9974c8e6c98a2906c97b98143905690b68fac8d4a8e7193af96bf814391c58b4e90b8905f8ab189ba8b8e9673815c815c81495c"
+      },
+      {
+        "entry": "story/battle/jpn/satsuki_start.txt",
+        "kind": "MD",
+        "ordinal": 1,
+        "old_display_lines": [
+          "喂，希翁，这雾难道就是塔塔利……",
+          "咦？希翁，希翁……？\\"
+        ],
+        "new_display_lines": [
+          "喂，紫苑，这雾难道就是塔塔利……",
+          "咦？紫苑，紫苑……？\\"
+        ],
+        "old_stored_cp932_hex": "994781438af389a58143e6a2ea4cea4793b98f4190a593839383979881638163977581488af389a581438af389a58163816381485c",
+        "new_stored_cp932_hex": "994781438e8789918143e6a2ea4cea4793b98f4190a593839383979881638163977581488e87899181438e8789918163816381485c"
+      },
+      {
+        "entry": "story/battle/jpn/satsuki_start.txt",
+        "kind": "MD",
+        "ordinal": 2,
+        "old_display_lines": [
+          "糟、糟了，希翁不见了！\\"
+        ],
+        "new_display_lines": [
+          "糟、糟了，紫苑不见了！\\"
+        ],
+        "old_stored_cp932_hex": "918c8141918c97b981438af389a59573e37397b981495c",
+        "new_stored_cp932_hex": "918c8141918c97b981438e8789919573e37397b981495c"
+      },
+      {
+        "entry": "story/battle/jpn/satsuki_start.txt",
+        "kind": "MD",
+        "ordinal": 4,
+        "old_display_lines": [
+          "真是的，希翁这个笨蛋！",
+          "我也是守护城市和平的正义吸血鬼啊？\\"
+        ],
+        "new_display_lines": [
+          "真是的，紫苑这个笨蛋！",
+          "我也是守护城市和平的正义吸血鬼啊？\\"
+        ],
+        "old_stored_cp932_hex": "905e90a5934981438af389a5e6a298a2e29c9260814989e496e790a58ee79bbb8fe98e73986195bd934990b38b668b7a8c8c8b5398d681485c",
+        "new_stored_cp932_hex": "905e90a5934981438e878991e6a298a2e29c9260814989e496e790a58ee79bbb8fe98e73986195bd934990b38b668b7a8c8c8b5398d681485c"
+      },
+      {
+        "entry": "story/battle/jpn/satsuki_start.txt",
+        "kind": "MD",
+        "ordinal": 5,
+        "old_display_lines": [
+          "希翁的问题就是我的问题，威胁夜晚的",
+          "坏人，当然不能放着不管！\\"
+        ],
+        "new_display_lines": [
+          "紫苑的问题就是我的问题，威胁夜晚的",
+          "坏人，当然不能放着不管！\\"
+        ],
+        "old_stored_cp932_hex": "8af389a59349e7bded518f4190a589e49349e7bded51814388d0e29296e99d4b93499aad906c8143939691529573945c95fa928595738ac781495c",
+        "new_stored_cp932_hex": "8e8789919349e7bded518f4190a589e49349e7bded51814388d0e29296e99d4b93499aad906c8143939691529573945c95fa928595738ac781495c"
+      },
+      {
+        "entry": "story/battle/jpn/satsuki_start.txt",
+        "kind": "MD",
+        "ordinal": 6,
+        "old_display_lines": [
+          "等着我，希翁！",
+          "巷弄同盟第一大力士，",
+          "弓冢五月马上赶到！\\"
+        ],
+        "new_display_lines": [
+          "等着我，紫苑！",
+          "小巷子同盟第一大力士，",
+          "弓冢五月马上赶到！\\"
+        ],
+        "old_stored_cp932_hex": "9399928589e481438af389a581498d4a984d93af96bf91e688ea91e597cd8e6d81438b7c996e8cdc8c8eeda18fe3ee94939e81495c",
+        "new_stored_cp932_hex": "9399928589e481438e87899181498fac8d4a8e7193af96bf91e688ea91e597cd8e6d81438b7c996e8cdc8c8eeda18fe3ee94939e81495c"
+      },
+      {
+        "entry": "story/battle/jpn/satsuki_win.txt",
+        "kind": "WIN",
+        "ordinal": 10,
+        "old_display_lines": [
+          "希翁，你没事吧？",
+          "你好像不太舒服，要我送你回家吗？"
+        ],
+        "new_display_lines": [
+          "紫苑，你没事吧？",
+          "你好像不太舒服，要我送你回家吗？"
+        ],
+        "old_stored_cp932_hex": "8af389a5814391d796768e969673814891d78d44919c957391be98ae959e8143977689e4919791d789f189c695f78148",
+        "new_stored_cp932_hex": "8e878991814391d796768e969673814891d78d44919c957391be98ae959e8143977689e4919791d789f189c695f78148"
+      },
+      {
+        "entry": "story/battle/jpn/satsuki_win.txt",
+        "kind": "WIN",
+        "ordinal": 15,
+        "old_display_lines": [
+          "巷弄同盟，闪亮登场！",
+          "扰乱夜晚和平的人，请赶快回去吧！"
+        ],
+        "new_display_lines": [
+          "小巷子同盟，闪亮登场！",
+          "扰乱夜晚和平的人，请赶快回去吧！"
+        ],
+        "old_stored_cp932_hex": "8d4a984d93af96bf8143e7b497ba936f99a681499bb6979096e99d4b986195bd9349906c8143e4acee9489f589f18b8e96738149",
+        "new_stored_cp932_hex": "8fac8d4a8e7193af96bf8143e7b497ba936f99a681499bb6979096e99d4b986195bd9349906c8143e4acee9489f589f18b8e96738149"
+      },
+      {
+        "entry": "story/battle/jpn/satsuki_win.txt",
+        "kind": "WIN",
+        "ordinal": 16,
+        "old_display_lines": [
+          "巷弄同盟，闪亮登场！",
+          "扰乱夜晚和平的人，请赶快回去吧！"
+        ],
+        "new_display_lines": [
+          "小巷子同盟，闪亮登场！",
+          "扰乱夜晚和平的人，请赶快回去吧！"
+        ],
+        "old_stored_cp932_hex": "8d4a984d93af96bf8143e7b497ba936f99a681499bb6979096e99d4b986195bd9349906c8143e4acee9489f589f18b8e96738149",
+        "new_stored_cp932_hex": "8fac8d4a8e7193af96bf8143e7b497ba936f99a681499bb6979096e99d4b986195bd9349906c8143e4acee9489f589f18b8e96738149"
+      },
+      {
+        "entry": "story/battle/jpn/satsuki_win.txt",
+        "kind": "WIN",
+        "ordinal": 17,
+        "old_display_lines": [
+          "巷弄同盟，闪亮登场！",
+          "扰乱夜晚和平的人，请赶快回去吧！"
+        ],
+        "new_display_lines": [
+          "小巷子同盟，闪亮登场！",
+          "扰乱夜晚和平的人，请赶快回去吧！"
+        ],
+        "old_stored_cp932_hex": "8d4a984d93af96bf8143e7b497ba936f99a681499bb6979096e99d4b986195bd9349906c8143e4acee9489f589f18b8e96738149",
+        "new_stored_cp932_hex": "8fac8d4a8e7193af96bf8143e7b497ba936f99a681499bb6979096e99d4b986195bd9349906c8143e4acee9489f589f18b8e96738149"
+      },
+      {
+        "entry": "story/battle/jpn/satsuki_win.txt",
+        "kind": "WIN",
+        "ordinal": 18,
+        "old_display_lines": [
+          "巷弄同盟，闪亮登场！",
+          "扰乱夜晚和平的人，请赶快回去吧！"
+        ],
+        "new_display_lines": [
+          "小巷子同盟，闪亮登场！",
+          "扰乱夜晚和平的人，请赶快回去吧！"
+        ],
+        "old_stored_cp932_hex": "8d4a984d93af96bf8143e7b497ba936f99a681499bb6979096e99d4b986195bd9349906c8143e4acee9489f589f18b8e96738149",
+        "new_stored_cp932_hex": "8fac8d4a8e7193af96bf8143e7b497ba936f99a681499bb6979096e99d4b986195bd9349906c8143e4acee9489f589f18b8e96738149"
+      },
+      {
+        "entry": "story/battle/jpn/satsuki_win.txt",
+        "kind": "WIN",
+        "ordinal": 19,
+        "old_display_lines": [
+          "巷弄同盟，闪亮登场！",
+          "扰乱夜晚和平的人，请赶快回去吧！"
+        ],
+        "new_display_lines": [
+          "小巷子同盟，闪亮登场！",
+          "扰乱夜晚和平的人，请赶快回去吧！"
+        ],
+        "old_stored_cp932_hex": "8d4a984d93af96bf8143e7b497ba936f99a681499bb6979096e99d4b986195bd9349906c8143e4acee9489f589f18b8e96738149",
+        "new_stored_cp932_hex": "8fac8d4a8e7193af96bf8143e7b497ba936f99a681499bb6979096e99d4b986195bd9349906c8143e4acee9489f589f18b8e96738149"
+      },
+      {
+        "entry": "story/battle/jpn/satsuki_win.txt",
+        "kind": "WIN",
+        "ordinal": 20,
+        "old_display_lines": [
+          "巷弄同盟，闪亮登场！",
+          "扰乱夜晚和平的人，请赶快回去吧！"
+        ],
+        "new_display_lines": [
+          "小巷子同盟，闪亮登场！",
+          "扰乱夜晚和平的人，请赶快回去吧！"
+        ],
+        "old_stored_cp932_hex": "8d4a984d93af96bf8143e7b497ba936f99a681499bb6979096e99d4b986195bd9349906c8143e4acee9489f589f18b8e96738149",
+        "new_stored_cp932_hex": "8fac8d4a8e7193af96bf8143e7b497ba936f99a681499bb6979096e99d4b986195bd9349906c8143e4acee9489f589f18b8e96738149"
+      },
+      {
+        "entry": "story/battle/jpn/satsuki_win.txt",
+        "kind": "WIN",
+        "ordinal": 27,
+        "old_display_lines": [
+          "您就是莉兹拜斐小姐！？啊、真的很抱歉，",
+          "我没能控制好力道……！",
+          "那个，希翁经常提到您！",
+          "今后还请多多关照！"
+        ],
+        "new_display_lines": [
+          "您就是莉兹拜斐小姐！？啊、真的很抱歉，",
+          "我没能控制好力道……！",
+          "那个，紫苑经常提到您！",
+          "今后还请多多关照！"
+        ],
+        "old_stored_cp932_hex": "9b668f4190a5e4bb92d69d6094e38fac88b78149814898d68141905e93499c6b95f89f5d814389e49676945c8d5490a78d4497cd93b981638163814993df98a281438af389a5e1a98fed92f1939e9b6681498da18d40e69be4ac91bd91bd92ba8fc68149",
+        "new_stored_cp932_hex": "9b668f4190a5e4bb92d69d6094e38fac88b78149814898d68141905e93499c6b95f89f5d814389e49676945c8d5490a78d4497cd93b981638163814993df98a281438e878991e1a98fed92f1939e9b6681498da18d40e69be4ac91bd91bd92ba8fc68149"
+      },
+      {
+        "entry": "story/battle/jpn/shiki09.txt",
+        "kind": "MD",
+        "ordinal": 3,
+        "old_display_lines": [
+          "你……不，您是――希翁――",
+          "对，是希翁……！\\"
+        ],
+        "new_display_lines": [
+          "你……不，您是――紫苑――",
+          "对，是紫苑……！\\"
+        ],
+        "old_stored_cp932_hex": "91d781638163957381439b6690a5815c815c8af389a5815c815c9a87814390a58af389a58163816381495c",
+        "new_stored_cp932_hex": "91d781638163957381439b6690a5815c815c8e878991815c815c9a87814390a58e8789918163816381495c"
+      },
+      {
+        "entry": "story/battle/jpn/shiki09.txt",
+        "kind": "MD",
+        "ordinal": 5,
+        "old_display_lines": [
+          "我为什么至今都忘了？",
+          "这是塔塔利的夜晚，我和希翁一起，",
+          "明明打倒了塔塔利的元凶……！\\"
+        ],
+        "new_display_lines": [
+          "我为什么至今都忘了？",
+          "这是塔塔利的夜晚，我和紫苑一起，",
+          "明明打倒了塔塔利的元凶……！\\"
+        ],
+        "old_stored_cp932_hex": "89e48ab28f598b618e8a8da19373965997b98148e6a290a5938393839798934996e99d4b814389e498618af389a588ea8b4e814396be96be91c5937c97b993839383979893498cb38ba58163816381495c",
+        "new_stored_cp932_hex": "89e48ab28f598b618e8a8da19373965997b98148e6a290a5938393839798934996e99d4b814389e498618e87899188ea8b4e814396be96be91c5937c97b993839383979893498cb38ba58163816381495c"
+      },
+      {
+        "entry": "story/battle/jpn/shiki09.txt",
+        "kind": "MD",
+        "ordinal": 7,
+        "old_display_lines": [
+          "希翁……？",
+          "怎么了，发生什么事了吗？\\"
+        ],
+        "new_display_lines": [
+          "紫苑……？",
+          "怎么了，发生什么事了吗？\\"
+        ],
+        "old_stored_cp932_hex": "8af389a58163816381489c838b6197b98143956690b68f598b618e9697b995f781485c",
+        "new_stored_cp932_hex": "8e8789918163816381489c838b6197b98143956690b68f598b618e9697b995f781485c"
+      },
+      {
+        "entry": "story/battle/jpn/shiki09.txt",
+        "kind": "MD",
+        "ordinal": 10,
+        "old_display_lines": [
+          "……从任何意义上都不能原谅。",
+          "你将我当作希翁·艾尔特纳姆来看待。\\"
+        ],
+        "new_display_lines": [
+          "……从任何意义上都不能原谅。",
+          "你将我当作紫苑·艾尔特纳姆来看待。\\"
+        ],
+        "old_stored_cp932_hex": "8163816398b8944389bd88d38b668fe393739573945c8cb4e4e0814291d78fab89e493968dec8af389a589a6e4889a9393c1e18e9b4797888ac591d281425c",
+        "new_stored_cp932_hex": "8163816398b8944389bd88d38b668fe393739573945c8cb4e4e0814291d78fab89e493968dec8e87899189a6e4889a9393c1e18e9b4797888ac591d281425c"
+      },
+      {
+        "entry": "story/battle/jpn/shiki09.txt",
+        "kind": "MD",
+        "ordinal": 18,
+        "old_display_lines": [
+          "在这只鸟被正确答案抹去之前――",
+          "只要你消失，我就会成为唯一的希翁。\\"
+        ],
+        "new_display_lines": [
+          "在这只鸟被正确答案抹去之前――",
+          "只要你消失，我就会成为唯一的紫苑。\\"
+        ],
+        "old_stored_cp932_hex": "8ddde6a291fcedd094ed90b39fc8939a88c496958b8e9456914f815c815c91fc977691d78fc18eb8814389e48f4189ef90ac8ab2974288ea93498af389a581425c",
+        "new_stored_cp932_hex": "8ddde6a291fcedd094ed90b39fc8939a88c496958b8e9456914f815c815c91fc977691d78fc18eb8814389e48f4189ef90ac8ab2974288ea93498e87899181425c"
+      },
+      {
+        "entry": "story/battle/jpn/shiki09.txt",
+        "kind": "MD",
+        "ordinal": 19,
+        "old_display_lines": [
+          "――希翁。",
+          "现在的你和刚才相遇时的你不同……",
+          "你是塔塔利制造的希翁吗？\\"
+        ],
+        "new_display_lines": [
+          "――紫苑。",
+          "现在的你和刚才相遇时的你不同……",
+          "你是塔塔利制造的紫苑吗？\\"
+        ],
+        "old_stored_cp932_hex": "815c815c8af389a581429ef58ddd934991d79861939f8dcb918a8bf69cdc934991d7957393af8163816391d790a593839383979890a791a293498af389a595f781485c",
+        "new_stored_cp932_hex": "815c815c8e87899181429ef58ddd934991d79861939f8dcb918a8bf69cdc934991d7957393af8163816391d790a593839383979890a791a293498e87899195f781485c"
+      },
+      {
+        "entry": "story/battle/jpn/shiki_boss_rash05.txt",
+        "kind": "MD",
+        "ordinal": 13,
+        "old_display_lines": [
+          "不，这个逻辑很奇怪！希耶尔学姐、",
+          "希翁和翡翠都不在，而且说到底，",
+          "不是还有瓦拉齐亚吗！？那家伙是男的吧！？\\"
+        ],
+        "new_display_lines": [
+          "不，这个逻辑很奇怪！希耶尔学姐、",
+          "紫苑和翡翠都不在，而且说到底，",
+          "不是还有瓦拉齐亚吗！？那家伙是男的吧！？\\"
+        ],
+        "old_stored_cp932_hex": "95738143e6a298a2e6c5e68a9c6b8aef89f681498af396eb9a938a7788b781418af389a59861e3c59089937395738ddd81438ea78a8ee493939e92ea8143957390a5e69b974c8aa29d66edda8de195f78149814893df89c6915190a5926a93499673814981485c",
+        "new_stored_cp932_hex": "95738143e6a298a2e6c5e68a9c6b8aef89f681498af396eb9a938a7788b781418e8789919861e3c59089937395738ddd81438ea78a8ee493939e92ea8143957390a5e69b974c8aa29d66edda8de195f78149814893df89c6915190a5926a93499673814981485c"
+      },
+      {
+        "entry": "story/battle/jpn/shiki_boss_rash05.txt",
+        "kind": "MD",
+        "ordinal": 14,
+        "old_display_lines": [
+          "不是，希翁小姐她啊，",
+          "看来他缺席是因为在迪拜忙着玩金钱游戏。",
+          "据说瓦拉齐亚先生来代替她。\\"
+        ],
+        "new_display_lines": [
+          "不是，紫苑小姐她啊，",
+          "看来他缺席是因为在迪拜忙着玩金钱游戏。",
+          "据说瓦拉齐亚先生来代替她。\\"
+        ],
+        "old_stored_cp932_hex": "957390a581438af389a58fac88b79a5398d681438ac5978891bce39e90c890a588f68ab28ddde78c9d60965a92858adf8be0e74f9fe09b9281429098e4938aa29d66edda8de190e690b6978891e391d69a5381425c",
+        "new_stored_cp932_hex": "957390a581438e8789918fac88b79a5398d681438ac5978891bce39e90c890a588f68ab28ddde78c9d60965a92858adf8be0e74f9fe09b9281429098e4938aa29d66edda8de190e690b6978891e391d69a5381425c"
+      },
+      {
+        "entry": "story/battle/jpn/shiki_ending.txt",
+        "kind": "XM",
+        "ordinal": 3,
+        "old_display_lines": [
+          "――是这样吗。",
+          "那个说自己是塔塔利的希翁，该怎么说……",
+          "看上去非常寂寞……\\"
+        ],
+        "new_display_lines": [
+          "――是这样吗。",
+          "那个说自己是塔塔利的紫苑，该怎么说……",
+          "看上去非常寂寞……\\"
+        ],
+        "old_stored_cp932_hex": "815c815c90a5e6a29db395f7814293df98a2e4938ea98cc890a593839383979893498af389a58143e4659c838b61e493816381638ac58fe38b8e94f18fed8ee29b8b816381635c",
+        "new_stored_cp932_hex": "815c815c90a5e6a29db395f7814293df98a2e4938ea98cc890a593839383979893498e8789918143e4659c838b61e493816381638ac58fe38b8e94f18fed8ee29b8b816381635c"
+      },
+      {
+        "entry": "story/battle/jpn/shiki_ending.txt",
+        "kind": "XM",
+        "ordinal": 7,
+        "old_display_lines": [
+          "啊，那当然。",
+          "毕竟我知道了希翁长大后会变成那样，",
+          "也没法轻易忘掉啊。\\"
+        ],
+        "new_display_lines": [
+          "啊，那当然。",
+          "毕竟我知道了紫苑长大后会变成那样，",
+          "也没法轻易忘掉啊。\\"
+        ],
+        "old_stored_cp932_hex": "98d6814393df9396915281429dd7e8ed89e4926d93b997b98af389a5e7ab91e58d4089ef956790ac93df9db3814396e796769640e67088d596599d7b98d681425c",
+        "new_stored_cp932_hex": "98d6814393df9396915281429dd7e8ed89e4926d93b997b98e878991e7ab91e58d4089ef956790ac93df9db3814396e796769640e67088d596599d7b98d681425c"
+      },
+      {
+        "entry": "story/battle/jpn/shiki_ending.txt",
+        "kind": "XM",
+        "ordinal": 10,
+        "old_display_lines": [
+          "喂，等等，冷静点希翁！",
+          "枪、枪可不能掏出来啊！\\"
+        ],
+        "new_display_lines": [
+          "喂，等等，冷静点紫苑！",
+          "枪、枪可不能掏出来啊！\\"
+        ],
+        "old_stored_cp932_hex": "9947814393999399814397e290c3935f8af389a581499d9f81419d9f89c29573945c9d7a8f6f978898d681495c",
+        "new_stored_cp932_hex": "9947814393999399814397e290c3935f8e87899181499d9f81419d9f89c29573945c9d7a8f6f978898d681495c"
+      },
+      {
+        "entry": "story/battle/jpn/shiki_win.txt",
+        "kind": "WIN",
+        "ordinal": 16,
+        "old_display_lines": [
+          "话说，希翁。",
+          "你能和秋叶她们好好相处我很高兴，",
+          "但在地下做各种实验不太好吧？"
+        ],
+        "new_display_lines": [
+          "话说，紫苑。",
+          "你能和秋叶她们好好相处我很高兴，",
+          "但在地下做各种实验不太好吧？"
+        ],
+        "old_stored_cp932_hex": "e3f1e49381438af389a5814291d7945c98618f488a909a538fc38d448d44918a99d589e49c6b8d8292bd814392418ddd926e89ba98f48a659fcd9a69edb1957391be8d4496738148",
+        "new_stored_cp932_hex": "e3f1e49381438e878991814291d7945c98618f488a909a538fc38d448d44918a99d589e49c6b8d8292bd814392418ddd926e89ba98f48a659fcd9a69edb1957391be8d4496738148"
+      },
+      {
+        "entry": "story/battle/jpn/shiki_win.txt",
+        "kind": "WIN",
+        "ordinal": 30,
+        "old_display_lines": [
+          "好，替你报仇了，弓塚同学……！……等等，",
+          "咦……我为什么会在这种地方？",
+          "我应该是和希翁约好见面才对……咦？"
+        ],
+        "new_display_lines": [
+          "好，替你报仇了，弓塚同学……！……等等，",
+          "咦……我为什么会在这种地方？",
+          "我应该是和紫苑约好见面才对……咦？"
+        ],
+        "old_stored_cp932_hex": "8d44814391d691d79bbe8b7797b981438b7c92cb93af8a778163816381498163816393999399814397758163816389e48ab28f598b6189ef8ddde6a29fcd926e95fb814889e49abbe46590a598618af389a5e1738d44e37396ca8dcb9a878163816397758148",
+        "new_stored_cp932_hex": "8d44814391d691d79bbe8b7797b981438b7c92cb93af8a778163816381498163816393999399814397758163816389e48ab28f598b6189ef8ddde6a29fcd926e95fb814889e49abbe46590a598618e878991e1738d44e37396ca8dcb9a878163816397758148"
+      },
+      {
+        "entry": "story/battle/jpn/sion04.txt",
+        "kind": "MD",
+        "ordinal": 1,
+        "old_display_lines": [
+          "正是。虽是仓促搭成的舞台布景，",
+          "你还喜欢吗，希翁？\\"
+        ],
+        "new_display_lines": [
+          "正是。虽是仓促搭成的舞台布景，",
+          "你还喜欢吗，紫苑？\\"
+        ],
+        "old_stored_cp932_hex": "90b390a58142e2f490a58fb791a3938b90ac9349959191e4957a8c69814391d7e69b8aec9dc595f781438af389a581485c",
+        "new_stored_cp932_hex": "90b390a58142e2f490a58fb791a3938b90ac9349959191e4957a8c69814391d7e69b8aec9dc595f781438e87899181485c"
+      },
+      {
+        "entry": "story/battle/jpn/sion04.txt",
+        "kind": "MD",
+        "ordinal": 7,
+        "old_display_lines": [
+          "小姐。",
+          "你真的是希翁·艾尔特纳姆·阿特拉西亚吗？\\"
+        ],
+        "new_display_lines": [
+          "小姐。",
+          "你真的是紫苑·艾尔特纳姆·阿特拉西亚吗？\\"
+        ],
+        "old_stored_cp932_hex": "8fac88b7814291d7905e934990a58af389a589a6e4889a9393c1e18e9b4789a688a293c19d6690bc8de195f781485c",
+        "new_stored_cp932_hex": "8fac88b7814291d7905e934990a58e87899189a6e4889a9393c1e18e9b4789a688a293c19d6690bc8de195f781485c"
+      },
+      {
+        "entry": "story/battle/jpn/sion08.txt",
+        "kind": "MD",
+        "ordinal": 3,
+        "old_display_lines": [
+          "……对信任之人想得太多，",
+          "是你的坏习惯哦，希翁。\\"
+        ],
+        "new_display_lines": [
+          "……对信任之人想得太多，",
+          "是你的坏习惯哦，紫苑。\\"
+        ],
+        "old_stored_cp932_hex": "816381639a87904d94439456906c917a93be91be91bd814390a591d793499aad8ba79b899a4781438af389a581425c",
+        "new_stored_cp932_hex": "816381639a87904d94439456906c917a93be91be91bd814390a591d793499aad8ba79b899a4781438e87899181425c"
+      },
+      {
+        "entry": "story/battle/jpn/sion08.txt",
+        "kind": "MD",
+        "ordinal": 8,
+        "old_display_lines": [
+          "虽然一直瞒着希翁，但我对那种事，",
+          "其实不怎么在意。\\"
+        ],
+        "new_display_lines": [
+          "虽然一直瞒着紫苑，但我对那种事，",
+          "其实不怎么在意。\\"
+        ],
+        "old_stored_cp932_hex": "e2f4915288ea92bc9fa692858af389a58143924189e49a8793df9fcd8e96814391b49a6995739c838b618ddd88d381425c",
+        "new_stored_cp932_hex": "e2f4915288ea92bc9fa692858e8789918143924189e49a8793df9fcd8e96814391b49a6995739c838b618ddd88d381425c"
+      },
+      {
+        "entry": "story/battle/jpn/sion08.txt",
+        "kind": "MD",
+        "ordinal": 12,
+        "old_display_lines": [
+          "那么上吧，希翁。",
+          "你若老实离开，我不会追。",
+          "但若要踏入前方―――\\"
+        ],
+        "new_display_lines": [
+          "那么上吧，紫苑。",
+          "你若老实离开，我不会追。",
+          "但若要踏入前方―――\\"
+        ],
+        "old_stored_cp932_hex": "93df8b618fe3967381438af389a5814291d78ee198569a699fcc9acc814389e4957389ef92c7814292418ee1977693a593fc914f95fb815c815c815c5c",
+        "new_stored_cp932_hex": "93df8b618fe3967381438e878991814291d78ee198569a699fcc9acc814389e4957389ef92c7814292418ee1977693a593fc914f95fb815c815c815c5c"
+      },
+      {
+        "entry": "story/battle/jpn/sion09.txt",
+        "kind": "MD",
+        "ordinal": 5,
+        "old_display_lines": [
+          "―――该消失的是你，",
+          "希翁·艾尔特纳姆·阿特拉西亚。\\"
+        ],
+        "new_display_lines": [
+          "―――该消失的是你，",
+          "紫苑·艾尔特纳姆·阿特拉西亚。\\"
+        ],
+        "old_stored_cp932_hex": "815c815c815ce4658fc18eb8934990a591d781438af389a589a6e4889a9393c1e18e9b4789a688a293c19d6690bc8de181425c",
+        "new_stored_cp932_hex": "815c815c815ce4658fc18eb8934990a591d781438e87899189a6e4889a9393c1e18e9b4789a688a293c19d6690bc8de181425c"
+      },
+      {
+        "entry": "story/battle/jpn/sion09.txt",
+        "kind": "MD",
+        "ordinal": 8,
+        "old_display_lines": [
+          "三年前，被瓦拉齐亚之夜吞没的，",
+          "希翁·艾尔特纳姆的“人类之命”。\\"
+        ],
+        "new_display_lines": [
+          "三年前，被瓦拉齐亚之夜吞没的，",
+          "紫苑·艾尔特纳姆的“人类之命”。\\"
+        ],
+        "old_stored_cp932_hex": "8e4f944e914f814394ed8aa29d66edda8de1945696e9966d9676934981438af389a589a6e4889a9393c1e18e9b4793498167906ce15d945696bd816881425c",
+        "new_stored_cp932_hex": "8e4f944e914f814394ed8aa29d66edda8de1945696e9966d9676934981438e87899189a6e4889a9393c1e18e9b4793498167906ce15d945696bd816881425c"
+      },
+      {
+        "entry": "story/battle/jpn/sion09.txt",
+        "kind": "MD",
+        "ordinal": 13,
+        "old_display_lines": [
+          "两者都是希翁的残骸。",
+          "同为死者之王，也都寻求相同的结局。\\"
+        ],
+        "new_display_lines": [
+          "两者都是紫苑的残骸。",
+          "同为死者之王，也都寻求相同的结局。\\"
+        ],
+        "old_stored_cp932_hex": "8a538ed2937390a58af389a593498e638a5b814293af8ab28e808ed2945689a4814396e793739a8a8b81918a93af9349e1ac8bc781425c",
+        "new_stored_cp932_hex": "8a538ed2937390a58e87899193498e638a5b814293af8ab28e808ed2945689a4814396e793739a8a8b81918a93af9349e1ac8bc781425c"
+      },
+      {
+        "entry": "story/battle/jpn/sion09.txt",
+        "kind": "MD",
+        "ordinal": 21,
+        "old_display_lines": [
+          "在我身上诞生的新感情，确实",
+          "降低了希翁·艾尔特纳姆的性能。\\"
+        ],
+        "new_display_lines": [
+          "在我身上诞生的新感情，确实",
+          "降低了紫苑·艾尔特纳姆的性能。\\"
+        ],
+        "old_stored_cp932_hex": "8ddd89e490678fe3e44290b6934990568ab48fee81439fc89a698d7e92e197b98af389a589a6e4889a9393c1e18e9b47934990ab945c81425c",
+        "new_stored_cp932_hex": "8ddd89e490678fe3e44290b6934990568ab48fee81439fc89a698d7e92e197b98e87899189a6e4889a9393c1e18e9b47934990ab945c81425c"
+      },
+      {
+        "entry": "story/battle/jpn/sion09.txt",
+        "kind": "MD",
+        "ordinal": 23,
+        "old_display_lines": [
+          "……是吗。愚蠢，但我不否认。",
+          "只管消失吧，希翁。\\"
+        ],
+        "new_display_lines": [
+          "……是吗。愚蠢，但我不否认。",
+          "只管消失吧，紫苑。\\"
+        ],
+        "old_stored_cp932_hex": "8163816390a595f781428bf0e5bf8143924189e4957394dbe39d814291fc8ac78fc18eb8967381438af389a581425c",
+        "new_stored_cp932_hex": "8163816390a595f781428bf0e5bf8143924189e4957394dbe39d814291fc8ac78fc18eb8967381438e87899181425c"
+      },
+      {
+        "entry": "story/battle/jpn/sion09.txt",
+        "kind": "MD",
+        "ordinal": 26,
+        "old_display_lines": [
+          "谁才是希翁的残骸―――答案就由这场",
+          "战斗的结果揭晓吧！\\"
+        ],
+        "new_display_lines": [
+          "谁才是紫苑的残骸―――答案就由这场",
+          "战斗的结果揭晓吧！\\"
+        ],
+        "old_stored_cp932_hex": "e4d98dcb90a58af389a593498e638a5b815c815c815c939a88c48f419752e6a299a69b94936c9349e1ac89ca9c959ce5967381495c",
+        "new_stored_cp932_hex": "e4d98dcb90a58e87899193498e638a5b815c815c815c939a88c48f419752e6a299a69b94936c9349e1ac89ca9c959ce5967381495c"
+      },
+      {
+        "entry": "story/battle/jpn/sion_ending.txt",
+        "kind": "XM",
+        "ordinal": 0,
+        "old_display_lines": [
+          "嗯……这里是……希翁？",
+          "我……还留在这里……吗？\\"
+        ],
+        "new_display_lines": [
+          "嗯……这里是……紫苑？",
+          "我……还留在这里……吗？\\"
+        ],
+        "old_stored_cp932_hex": "995f81638163e6a297a290a5816381638af389a5814889e481638163e69b97af8ddde6a297a28163816395f781485c",
+        "new_stored_cp932_hex": "995f81638163e6a297a290a5816381638e878991814889e481638163e69b97af8ddde6a297a28163816395f781485c"
+      },
+      {
+        "entry": "story/battle/jpn/sion_ending.txt",
+        "kind": "XM",
+        "ordinal": 4,
+        "old_display_lines": [
+          "但希翁。",
+          "即使这样，我还是会消失吧……\\"
+        ],
+        "new_display_lines": [
+          "但紫苑。",
+          "即使这样，我还是会消失吧……\\"
+        ],
+        "old_stored_cp932_hex": "92418af389a5814291a68e67e6a29db3814389e4e69b90a589ef8fc18eb89673816381635c",
+        "new_stored_cp932_hex": "92418e878991814291a68e67e6a29db3814389e4e69b90a589ef8fc18eb89673816381635c"
+      },
+      {
+        "entry": "story/battle/jpn/sion_ending.txt",
+        "kind": "XM",
+        "ordinal": 13,
+        "old_display_lines": [
+          "不过，那只是周围的人误会了，",
+          "我可没有撒谎……希翁，",
+          "知道我的本性后，幻灭了吗？\\"
+        ],
+        "new_display_lines": [
+          "不过，那只是周围的人误会了，",
+          "我可没有撒谎……紫苑，",
+          "知道我的本性后，幻灭了吗？\\"
+        ],
+        "old_stored_cp932_hex": "9573e697814393df91fc90a58efc999d9349906ce48e89ef97b9814389e489c29676974c8e54e552816381638af389a58143926d93b989e49349967b90ab8d4081438cb69e9d97b995f781485c",
+        "new_stored_cp932_hex": "9573e697814393df91fc90a58efc999d9349906ce48e89ef97b9814389e489c29676974c8e54e552816381638e8789918143926d93b989e49349967b90ab8d4081438cb69e9d97b995f781485c"
+      },
+      {
+        "entry": "story/battle/jpn/sion_ending.txt",
+        "kind": "XM",
+        "ordinal": 16,
+        "old_display_lines": [
+          "嗯，对。和希翁不同，我不擅长考虑未来",
+          "的事。\\"
+        ],
+        "new_display_lines": [
+          "嗯，对。和紫苑不同，我不擅长考虑未来",
+          "的事。\\"
+        ],
+        "old_stored_cp932_hex": "995f81439a87814298618af389a5957393af814389e495739da1e7ab8d6ce2ea96a2978893498e9681425c",
+        "new_stored_cp932_hex": "995f81439a87814298618e878991957393af814389e495739da1e7ab8d6ce2ea96a2978893498e9681425c"
+      },
+      {
+        "entry": "story/battle/jpn/sion_ending.txt",
+        "kind": "XM",
+        "ordinal": 19,
+        "old_display_lines": [
+          "……嗯。",
+          "所以，怎么办？",
+          "希翁想如何处置我？\\"
+        ],
+        "new_display_lines": [
+          "……嗯。",
+          "所以，怎么办？",
+          "紫苑想如何处置我？\\"
+        ],
+        "old_stored_cp932_hex": "81638163995f81428f8a88c881439c838b61946981488af389a5917a944089bd99d5927589e481485c",
+        "new_stored_cp932_hex": "81638163995f81428f8a88c881439c838b61946981488e878991917a944089bd99d5927589e481485c"
+      },
+      {
+        "entry": "story/battle/jpn/v_sion08.txt",
+        "kind": "MD",
+        "ordinal": 0,
+        "old_display_lines": [
+          "欢迎，希翁。\\"
+        ],
+        "new_display_lines": [
+          "欢迎，紫苑。\\"
+        ],
+        "old_stored_cp932_hex": "9dc58c7d81438af389a581425c",
+        "new_stored_cp932_hex": "9dc58c7d81438e87899181425c"
+      },
+      {
+        "entry": "story/battle/jpn/v_sion08.txt",
+        "kind": "MD",
+        "ordinal": 8,
+        "old_display_lines": [
+          "？？那是什么意思，希翁？",
+          "被我吸走的你？区区三公升的血液，",
+          "在与我战斗？\\"
+        ],
+        "new_display_lines": [
+          "？？那是什么意思，紫苑？",
+          "被我吸走的你？区区三公升的血液，",
+          "在与我战斗？\\"
+        ],
+        "old_stored_cp932_hex": "8148814893df90a58f598b6188d38e7681438af389a5814894ed89e48b7a9196934991d781488be68be68e4f8cf68fa193498c8c897481438ddd975e89e49b94936c81485c",
+        "new_stored_cp932_hex": "8148814893df90a58f598b6188d38e7681438e878991814894ed89e48b7a9196934991d781488be68be68e4f8cf68fa193498c8c897481438ddd975e89e49b94936c81485c"
+      },
+      {
+        "entry": "story/battle/jpn/v_sion09.txt",
+        "kind": "MD",
+        "ordinal": 6,
+        "old_display_lines": [
+          "我是尚未知道这个国家的",
+          "希翁·艾尔特纳姆·阿特拉西亚。\\"
+        ],
+        "new_display_lines": [
+          "我是尚未知道这个国家的",
+          "紫苑·艾尔特纳姆·阿特拉西亚。\\"
+        ],
+        "old_stored_cp932_hex": "89e490a58fae96a2926d93b9e6a298a28d9189c693498af389a589a6e4889a9393c1e18e9b4789a688a293c19d6690bc8de181425c",
+        "new_stored_cp932_hex": "89e490a58fae96a2926d93b9e6a298a28d9189c693498e87899189a6e4889a9393c1e18e9b4789a688a293c19d6690bc8de181425c"
+      },
+      {
+        "entry": "story/battle/jpn/v_sion09.txt",
+        "kind": "MD",
+        "ordinal": 8,
+        "old_display_lines": [
+          "既不同于堕为人的希翁（她），也不同于堕为魔的",
+          "希翁（你）。我是奥西里斯之砂。",
+          "与灵子演算机一同飞越终末的预言者。\\"
+        ],
+        "new_display_lines": [
+          "既不同于堕为人的紫苑（她），也不同于堕为魔的",
+          "紫苑（你）。我是奥西里斯之砂。",
+          "与灵子演算机一同飞越终末的预言者。\\"
+        ],
+        "old_stored_cp932_hex": "8af9957393af98b091c28ab2906c93498af389a581699a53816a814396e7957393af98b091c28ab2968293498af389a5816991d7816a814289e490a5899c90bc97a28e7a94568dbb8142975e9ea28e7189898e5a8af788ea93afed6a897ae1a596969349ea908cbe8ed281425c",
+        "new_stored_cp932_hex": "8af9957393af98b091c28ab2906c93498e87899181699a53816a814396e7957393af98b091c28ab2968293498e878991816991d7816a814289e490a5899c90bc97a28e7a94568dbb8142975e9ea28e7189898e5a8af788ea93afed6a897ae1a596969349ea908cbe8ed281425c"
+      },
+      {
+        "entry": "story/battle/jpn/v_sion_ending.txt",
+        "kind": "XM",
+        "ordinal": 7,
+        "old_display_lines": [
+          "那么如今的我……成为吸血鬼的希翁·艾尔特纳姆",
+          "才配为灵长的未来忧虑。\\"
+        ],
+        "new_display_lines": [
+          "那么如今的我……成为吸血鬼的紫苑·艾尔特纳姆",
+          "才配为灵长的未来忧虑。\\"
+        ],
+        "old_stored_cp932_hex": "93df8b6194408da1934989e48163816390ac8ab28b7a8c8c8b5393498af389a589a6e4889a9393c1e18e9b478dcb947a8ab29ea2e7ab934996a297889af3e2ea81425c",
+        "new_stored_cp932_hex": "93df8b6194408da1934989e48163816390ac8ab28b7a8c8c8b5393498e87899189a6e4889a9393c1e18e9b478dcb947a8ab29ea2e7ab934996a297889af3e2ea81425c"
+      },
+      {
+        "entry": "story/battle/jpn/warakia09.txt",
+        "kind": "MD",
+        "ordinal": 23,
+        "old_display_lines": [
+          "嗯―――直白说，就是停播。希翁。\\"
+        ],
+        "new_display_lines": [
+          "嗯―――直白说，就是停播。紫苑。\\"
+        ],
+        "old_stored_cp932_hex": "995f815c815c815c92bc9492e49381438f4190a592e2946481428af389a581425c",
+        "new_stored_cp932_hex": "995f815c815c815c92bc9492e49381438f4190a592e2946481428e87899181425c"
+      },
+      {
+        "entry": "story/battle/jpn/warakia_ending.txt",
+        "kind": "XM",
+        "ordinal": 2,
+        "old_display_lines": [
+          "若有下一次，就该学习什么叫娱乐，希翁。",
+          "一直远离人类娱乐的你，",
+          "想要拯救人类，还差得远呢。\\"
+        ],
+        "new_display_lines": [
+          "若有下一次，就该学习什么叫娱乐，紫苑。",
+          "一直远离人类娱乐的你，",
+          "想要拯救人类，还差得远呢。\\"
+        ],
+        "old_stored_cp932_hex": "8ee1974c89ba88ea8e9f81438f41e4658a778ba78f598b618ba99a638ba181438af389a5814288ea92bce6a69fcc906ce15d9a638ba1934991d78143917a97769d6d8b7e906ce15d8143e69b8db793bee6a696ce81425c",
+        "new_stored_cp932_hex": "8ee1974c89ba88ea8e9f81438f41e4658a778ba78f598b618ba99a638ba181438e878991814288ea92bce6a69fcc906ce15d9a638ba1934991d78143917a97769d6d8b7e906ce15d8143e69b8db793bee6a696ce81425c"
+      },
+      {
+        "entry": "story/battle/jpn/warakia_win.txt",
+        "kind": "WIN",
+        "ordinal": 12,
+        "old_display_lines": [
+          "希翁，你的实力还不足以继承塔塔利。",
+          "再度沉入人世，吞没于六情的漩涡吧。"
+        ],
+        "new_display_lines": [
+          "紫苑，你的实力还不足以继承塔塔利。",
+          "再度沉入人世，吞没于六情的漩涡吧。"
+        ],
+        "old_stored_cp932_hex": "8af389a5814391d793499a6997cde69b957391ab88c8e1c48fb393839383979881428dc493789de393fc906c90a28143966d967698b0985a8fee93499e919e6496738142",
+        "new_stored_cp932_hex": "8e878991814391d793499a6997cde69b957391ab88c8e1c48fb393839383979881428dc493789de393fc906c90a28143966d967698b0985a8fee93499e919e6496738142"
+      },
+      {
+        "entry": "story/battle/jpn/wlen08.txt",
+        "kind": "MD",
+        "ordinal": 4,
+        "old_display_lines": [
+          "是啊。新雇主搞砸了。",
+          "比那个叫希翁的女孩还要死板，",
+          "一不小心就觉得有趣起来了……\\"
+        ],
+        "new_display_lines": [
+          "是啊。新雇主搞砸了。",
+          "比那个叫紫苑的女孩还要死板，",
+          "一不小心就觉得有趣起来了……\\"
+        ],
+        "old_stored_cp932_hex": "90a598d6814290568cd98ee59ca19fb697b9814294e493df98a28ba98af389a593498f979b77e69b97768e8094c2814388ea95738fac90538f41e39393be974c8eef8b4e978897b9816381635c",
+        "new_stored_cp932_hex": "90a598d6814290568cd98ee59ca19fb697b9814294e493df98a28ba98e87899193498f979b77e69b97768e8094c2814388ea95738fac90538f41e39393be974c8eef8b4e978897b9816381635c"
+      }
+    ],
+    "font_glyphs": [
+      {
+        "entry": "font.fnt",
+        "character": "穿",
+        "cp932_hex": "90fa",
+        "glyph_offset": "0xAAB46",
+        "before_sha256": "0f89b09d1af9cb000b4d1456b24dcad95143315960d4173bd9b644782194ff7a",
+        "after_sha256": "e8515b5b4d86e653001581b995332c15817f2fbbdc7cba449705e22e6f60a110"
+      },
+      {
+        "entry": "fontl.fnt",
+        "character": "穿",
+        "cp932_hex": "90fa",
+        "glyph_offset": "0xAAB46",
+        "before_sha256": "281e523242c0c34336766ffb071ef6f5098a06d49fe6172d9ec406c8e02dfe12",
+        "after_sha256": "e8515b5b4d86e653001581b995332c15817f2fbbdc7cba449705e22e6f60a110"
+      },
+      {
+        "entry": "font.fnt",
+        "character": "箭",
+        "cp932_hex": "90fb",
+        "slot": 2203,
+        "glyph_offset": "0xAAC66",
+        "before_sha256": "5e06f95c6760cd802d7f127f69c20973581af429cfe48a4e1f285bccfde7d897",
+        "after_sha256": "b967108ab1cecb59843189eb1d9e851dd5f54b1880dacd27a7bda398b814c336"
+      },
+      {
+        "entry": "fontl.fnt",
+        "character": "箭",
+        "cp932_hex": "90fb",
+        "slot": 2203,
+        "glyph_offset": "0xAAC66",
+        "before_sha256": "434e9b82b1d0e92d09f83ec1eb4a127dd41efdf481b30aca67c6a39e36209d18",
+        "after_sha256": "b967108ab1cecb59843189eb1d9e851dd5f54b1880dacd27a7bda398b814c336"
+      }
+    ]
+  },
+  "source_release": {
+    "release_id": "mbaa-cn-stable-v1-1-3",
+    "release_version": "1.1.3",
+    "payload_sha256": {
+      "0003.p": "9c1ccee984f7bc45fcfe6baa7301890fd4092b3e0c07bc006c34e533c4e23dfd",
+      "0004.p": "82eeaf770e3d6ddd136420ee5ac018d5a0c2e32f7086626d7ae3c810312678e0",
+      "0007.p": "db9ca0b42b5cc0235024d7f396250d41ddfa402e1d3a9261a4ec1eefa87f3290",
+      "MBAA.exe": "457e9184da2217ce35f8c09d4cfab211b7c399d802ca9c3575ae427c9a3b52b9"
+    }
+  },
+  "arrow_glyph_correction": {
+    "character": "箭",
+    "cp932_hex": "90fb",
+    "source_0004_sha256": "8e15249370a6852b18cd04075fcd570fac1c9aed82d6203a9c92e3f067c5d8db",
+    "output_0004_sha256": "82eeaf770e3d6ddd136420ee5ac018d5a0c2e32f7086626d7ae3c810312678e0",
+    "changed_entries": [
+      "font.fnt",
+      "fontl.fnt"
+    ],
+    "font_glyphs": [
+      {
+        "entry": "font.fnt",
+        "character": "箭",
+        "cp932_hex": "90fb",
+        "slot": 2203,
+        "glyph_offset": "0xAAC66",
+        "before_sha256": "5e06f95c6760cd802d7f127f69c20973581af429cfe48a4e1f285bccfde7d897",
+        "after_sha256": "b967108ab1cecb59843189eb1d9e851dd5f54b1880dacd27a7bda398b814c336"
+      },
+      {
+        "entry": "fontl.fnt",
+        "character": "箭",
+        "cp932_hex": "90fb",
+        "slot": 2203,
+        "glyph_offset": "0xAAC66",
+        "before_sha256": "434e9b82b1d0e92d09f83ec1eb4a127dd41efdf481b30aca67c6a39e36209d18",
+        "after_sha256": "b967108ab1cecb59843189eb1d9e851dd5f54b1880dacd27a7bda398b814c336"
+      }
+    ],
+    "installation": "not-installed"
+  },
+  "release_update_history": [
+    {
+      "kind": "vs-result-menu",
+      "date": "2026-09-04",
+      "source_0004_sha256": "dd0355a5ebdf3559a7ee1e7f1ccb1054faa00940ac93fc85f8b8f9e1f4879bd1",
+      "output_0004_sha256": "82eeaf770e3d6ddd136420ee5ac018d5a0c2e32f7086626d7ae3c810312678e0",
+      "changed_entries": [
+        "Information/jpn/VSResultInfo.ini"
+      ],
+      "source_encoding": "CP932",
+      "output_encoding": "GBK",
+      "translation_keys": [
+        "ONCE_AGAIN",
+        "RETURN_TITLE",
+        "EXIT_VS_GAME",
+        "SAVE_REPLAY",
+        "CHARACTER_SELECT",
+        "REPLAY_FILE_SELECT"
+      ]
+    }
+  ],
+  "vs_result_menu_correction": {
+    "source_0004_sha256": "dd0355a5ebdf3559a7ee1e7f1ccb1054faa00940ac93fc85f8b8f9e1f4879bd1",
+    "output_0004_sha256": "82eeaf770e3d6ddd136420ee5ac018d5a0c2e32f7086626d7ae3c810312678e0",
+    "changed_entries": [
+      "Information/jpn/VSResultInfo.ini"
+    ],
+    "source_encoding": "CP932",
+    "output_encoding": "GBK",
+    "translation_keys": [
+      "ONCE_AGAIN",
+      "RETURN_TITLE",
+      "EXIT_VS_GAME",
+      "SAVE_REPLAY",
+      "CHARACTER_SELECT",
+      "REPLAY_FILE_SELECT"
+    ],
+    "installation": "not-installed"
+  },
+  "v1_1_4_corrections": {
+    "nechaos_ending": {
+      "entry": "story/battle/jpn/nechaos_ending.txt",
+      "replacements": [
+        {
+          "old": "不能打倒的那类角色？",
+          "new": "难以打倒的此类角色？"
+        },
+        {
+          "old": "人类到底何时才能摆脱这条连锁呢……。",
+          "new": "人类到底何时可摆脱这条连锁呢……。"
+        }
+      ],
+      "encoding": "CP932",
+      "control_byte": "0x5C",
+      "carrier_substitutions": {
+        "难": {
+          "carrier_character": "鶉",
+          "carrier_cp932_hex": "EA47"
+        }
+      },
+      "v1_1_4_low_slot_removed": "0x80",
+      "root_cause_fix": {
+        "old_ascii_token": "Bug",
+        "new_text": "故障",
+        "encoding": "CP932",
+        "reason": "保持脚本按 CP932 双字节边界解析，避免第三行显示进度错位"
+      }
+    },
+    "glyph": {
+      "character": "稽",
+      "cp932_hex": "8c6d",
+      "changed_entries": [
+        "font.fnt",
+        "fontl.fnt"
+      ],
+      "font_glyphs": [
+        {
+          "entry": "font.fnt",
+          "character": "稽",
+          "display_character": "稽",
+          "cp932_hex": "8c6d",
+          "glyph_offset": "0x6BFC6",
+          "before_sha256": "bd8da6a3636098410ca417887b2cf808f69c2472e6fbafde7591ce9322ebf051",
+          "after_sha256": "68bc910d2492726fc9671b2753152032118463303f5c26b85a8a04359c3be380"
+        },
+        {
+          "entry": "fontl.fnt",
+          "character": "稽",
+          "display_character": "稽",
+          "cp932_hex": "8c6d",
+          "glyph_offset": "0x6BFC6",
+          "before_sha256": "f256edcb604bc8ef3bb488ffe7de7299850de12999427be89cbf2be48892cac4",
+          "after_sha256": "68bc910d2492726fc9671b2753152032118463303f5c26b85a8a04359c3be380"
+        }
+      ],
+      "carrier_support": {
+        "display_character": "法",
+        "carrier_character": "諶",
+        "carrier_cp932_hex": "ee8e",
+        "runtime_slot": 7227
+      },
+      "carrier_migration": {
+        "removed_low_runtime_slot": "0x80",
+        "high_runtime_carrier": "諶",
+        "high_runtime_cp932_hex": "ee8e"
+      }
+    },
+    "installation": "not-installed",
+    "nechaos_name": {
+      "entry": "story/battle/jpn/nechaos04.txt",
+      "replacement": {
+        "old": "尼禄・混沌……！",
+        "new": "尼禄·卡奥斯……！"
+      },
+      "encoding": "CP932"
+    }
+  },
+  "merged_from_versions": [
+    "1.1.4"
+  ],
+  "merged_corrections": "v1.1.4 original basis + safe nechaos ending text/name correction"
+}

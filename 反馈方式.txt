@@ -1,0 +1,10 @@
+反馈时请为截图标记角色、月相和场景。若发现异常，保留完整窗口与异常文字。
+反馈可以发送至邮箱：nothing1strue@yeah.net
+
+也可以在以下仓库提交 Issues：
+Gitee：https://gitee.com/giteeAkiRosetta/mbaa-cn-patch/issues
+GitHub：https://github.com/AkiRosetta/mbaa-cn-patch/issues
+
+或者私信我的 B 站账号：Aki_Rosetta
+
+一个 Issue 尽量只描述一个问题，并附上补丁版本、Steam 游戏版本、触发步骤和完整窗口截图。请勿上传存档、账号信息或其他个人文件。
