@@ -13,7 +13,7 @@ Assert-Payload $packageRoot $manifest | Out-Null
 $state = Get-InstallState $targetRoot $manifest
 
 if ($state.status -eq "steam-original") {
-    Write-Host "MBAA Chinese Patch Stable v1.1.4 is not installed; the Steam-original runtime is already present."
+    Write-Host "MBAA Chinese Patch Stable v1.1.5 is not installed; the Steam-original runtime is already present."
     exit 0
 }
 if ($state.status -ne "installed") {
@@ -30,7 +30,7 @@ if ($null -eq $installBackup) {
     throw "No verified Steam-original backup from this release was found. The patch was not changed. Use Steam file verification to recover the original runtime."
 }
 if ($VerifyOnly) {
-    Write-Host "MBAA Chinese Patch Stable v1.1.4 is eligible for restoration to the complete Steam-original runtime."
+    Write-Host "MBAA Chinese Patch Stable v1.1.5 is eligible for restoration to the complete Steam-original runtime."
     Write-Host "Restore source: $($installBackup.root)"
     exit 0
 }
@@ -151,4 +151,4 @@ try {
 } catch {
     Write-Warning "Steam-original restoration succeeded, but the original backup was kept: $($installBackup.root)"
 }
-Write-Host "MBAA Chinese Patch Stable v1.1.4 was restored to the Steam-original runtime successfully."
+Write-Host "MBAA Chinese Patch Stable v1.1.5 was restored to the Steam-original runtime successfully."

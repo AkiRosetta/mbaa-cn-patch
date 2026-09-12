@@ -142,12 +142,12 @@ function Get-PatchManifest {
     }
     $manifest = Get-Content -LiteralPath $manifestPath -Raw | ConvertFrom-Json
     if ($manifest.schema_version -ne 4 -or
-        $manifest.release_id -ne "mbaa-cn-stable-v1-1-4" -or
-        $manifest.release_version -ne "1.1.4") {
-        throw "This installer does not have the recognized compact Stable v1.1.4 manifest."
+        $manifest.release_id -ne "mbaa-cn-stable-v1-1-5" -or
+        $manifest.release_version -ne "1.1.5") {
+        throw "This installer does not have the recognized compact Stable v1.1.5 manifest."
     }
     if ([string]::IsNullOrWhiteSpace([string]$manifest.payload_directory) -or
-        [string]$manifest.backup_directory_prefix -ne "MBAA_CN_Stable_v1_1_4_") {
+        [string]$manifest.backup_directory_prefix -ne "MBAA_CN_Stable_v1_1_5_") {
         throw "The release manifest has an invalid payload or backup directory setting."
     }
     $expectedFiles = @("0003.p", "0004.p", "0007.p", "MBAA.exe" | Sort-Object)
@@ -393,8 +393,8 @@ function Replace-VerifiedFile {
 
     $targetDirectory = Split-Path -Parent $Target
     $targetName = Split-Path -Leaf $Target
-    $temporary = Join-Path $targetDirectory ("." + $targetName + ".mbaa_cn_stable_v1_1_4.tmp")
-    $replaceBackup = Join-Path $targetDirectory ("." + $targetName + ".mbaa_cn_stable_v1_1_4.replace-backup")
+    $temporary = Join-Path $targetDirectory ("." + $targetName + ".mbaa_cn_stable_v1_1_5.tmp")
+    $replaceBackup = Join-Path $targetDirectory ("." + $targetName + ".mbaa_cn_stable_v1_1_5.replace-backup")
     if (Test-Path -LiteralPath $temporary) {
         throw "Stale replacement temporary must be inspected first: $temporary"
     }

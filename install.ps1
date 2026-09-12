@@ -17,7 +17,7 @@ if ($state.status -eq "installed") {
     if ($null -eq $existingBackup) {
         throw "The complete Chinese payload is present but no verified Steam-original backup from this release was found. Refusing to claim that it can be uninstalled safely."
     }
-    Write-Host "MBAA Chinese Patch Stable v1.1.4 is already installed."
+    Write-Host "MBAA Chinese Patch Stable v1.1.5 is already installed."
     Write-Host "Verified Steam-original backup: $($existingBackup.root)"
     exit 0
 }
@@ -31,7 +31,7 @@ if ($state.status -ne "steam-original") {
     throw "Refusing to overwrite an old patch, a mixed state, or unknown files. Use Steam file verification before retrying."
 }
 if ($VerifyOnly) {
-    Write-Host "MBAA Chinese Patch Stable v1.1.4 is eligible for installation from the complete Steam-original runtime."
+    Write-Host "MBAA Chinese Patch Stable v1.1.5 is eligible for installation from the complete Steam-original runtime."
     exit 0
 }
 
@@ -132,5 +132,5 @@ try {
 $record.status = "installed"
 $record.installed_at = (Get-Date).ToString("o")
 Write-JsonFile $recordPath $record
-Write-Host "MBAA Chinese Patch Stable v1.1.4 installed successfully."
+Write-Host "MBAA Chinese Patch Stable v1.1.5 installed successfully."
 Write-Host "Verified Steam-original backup: $backupRoot"

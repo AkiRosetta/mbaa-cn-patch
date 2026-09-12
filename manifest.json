@@ -1,11 +1,11 @@
 ﻿{
   "schema_version": 4,
-  "release_id": "mbaa-cn-stable-v1-1-4",
-  "release_version": "1.1.4",
-  "release_title": "MBAA 汉化补丁 稳定版 v1.1.4",
+  "release_id": "mbaa-cn-stable-v1-1-5",
+  "release_version": "1.1.5",
+  "release_title": "MBAA 汉化补丁 稳定版 v1.1.5",
   "game": "MELTY BLOOD Actress Again Current Code (Steam)",
   "payload_directory": "payload",
-  "backup_directory_prefix": "MBAA_CN_Stable_v1_1_4_",
+  "backup_directory_prefix": "MBAA_CN_Stable_v1_1_5_",
   "install_mode": "install only from the complete Steam-original runtime",
   "uninstall_mode": "restore the verified Steam-original backup created during installation",
   "install_profile": {
@@ -30,7 +30,7 @@
       "name": "0004.p",
       "install_payload": {
         "path": "payload/0004.p",
-        "sha256": "762f0738b0c8d73a1c7d6b54c82683a2385f9fc9f31f7a52a28775416dd539d1",
+        "sha256": "fe88b2bc0b8e1727a2a57b92ca4c33a732f2b0b3f2969ccec5093515a4c60f14",
         "bytes": 5117369
       }
     },
@@ -38,8 +38,8 @@
       "name": "0007.p",
       "install_payload": {
         "path": "payload/0007.p",
-        "sha256": "91cfb6cb54d88c023db502a0c60363d59167e94d2563099f77a870c6983ae937",
-        "bytes": 64514615
+        "sha256": "6405f63c62fb6389535ce830b9e525a90f12b08c51ba61089b8f565c13cfdc00",
+        "bytes": 64514608
       }
     },
     {
@@ -76,7 +76,11 @@
     "vs_result_menu_encoding": "GBK",
     "nechaos_ending_control_byte_fix": true,
     "nechaos_name_translation_fix": true,
-    "nechaos_ending_byte_alignment_fix": true
+    "roa_name_translation_fix": true,
+    "zepia_name_translation_fix": true,
+    "akaakiha_ending_byte_alignment_fix": true,
+    "nechaos_ending_byte_alignment_fix": true,
+    "story_carrier_reassignments": 1
   },
   "story_name_correction_audit": [
     {
@@ -2052,12 +2056,12 @@
     ]
   },
   "source_release": {
-    "release_id": "mbaa-cn-stable-v1-1-3",
-    "release_version": "1.1.3",
+    "release_id": "mbaa-cn-stable-v1-1-4",
+    "release_version": "1.1.4",
     "payload_sha256": {
       "0003.p": "9c1ccee984f7bc45fcfe6baa7301890fd4092b3e0c07bc006c34e533c4e23dfd",
-      "0004.p": "82eeaf770e3d6ddd136420ee5ac018d5a0c2e32f7086626d7ae3c810312678e0",
-      "0007.p": "db9ca0b42b5cc0235024d7f396250d41ddfa402e1d3a9261a4ec1eefa87f3290",
+      "0004.p": "762f0738b0c8d73a1c7d6b54c82683a2385f9fc9f31f7a52a28775416dd539d1",
+      "0007.p": "91cfb6cb54d88c023db502a0c60363d59167e94d2563099f77a870c6983ae937",
       "MBAA.exe": "457e9184da2217ce35f8c09d4cfab211b7c399d802ca9c3575ae427c9a3b52b9"
     }
   },
@@ -2152,13 +2156,7 @@
           "carrier_cp932_hex": "EA47"
         }
       },
-      "v1_1_4_low_slot_removed": "0x80",
-      "root_cause_fix": {
-        "old_ascii_token": "Bug",
-        "new_text": "故障",
-        "encoding": "CP932",
-        "reason": "保持脚本按 CP932 双字节边界解析，避免第三行显示进度错位"
-      }
+      "v1_1_4_low_slot_removed": "0x80"
     },
     "glyph": {
       "character": "稽",
@@ -2212,5 +2210,57 @@
   "merged_from_versions": [
     "1.1.4"
   ],
-  "merged_corrections": "v1.1.4 original basis + safe nechaos ending text/name correction"
+  "merged_corrections": "v1.1.4 + Roa/Zepia names + AkaAkiha ending alignment",
+  "v1_1_5_corrections": {
+    "roa": {
+      "short_name": "米海尔",
+      "full_name": "米海尔·罗亚·法丹杨",
+      "entries": [
+        "story/battle/jpn/nero04.txt",
+        "story/battle/jpn/warakia_win.txt"
+      ]
+    },
+    "zepia": {
+      "short_name": "茨比亚",
+      "full_name": "茨比亚·艾尔特纳姆·奥贝隆",
+      "occurrences": 11
+    },
+    "akaakiha_ending": {
+      "entry": "story/battle/jpn/akaakiha_ending.txt",
+      "old_ascii_text": "S县",
+      "new_fullwidth_text": "Ｓ县",
+      "reason": "保持多行 XM 文本的 CP932 双字节边界，避免第三行只显示首字"
+    },
+    "carrier_reassignment": {
+      "display_character": "杨",
+      "replaced_display_character": "泽",
+      "carrier_character": "暃",
+      "carrier_cp932_hex": "9df1",
+      "reason": "全部旧译名“泽皮亚”已移除，复用其不再被引用的载体槽"
+    },
+    "preserved_fix": {
+      "entry": "story/battle/jpn/nechaos_ending.txt",
+      "text": "故障",
+      "ascii_bug_absent": true
+    },
+    "changed_0007_entries": [
+      "story/battle/jpn/akaakiha_ending.txt",
+      "story/battle/jpn/len09.txt",
+      "story/battle/jpn/nechaos_ending.txt",
+      "story/battle/jpn/nero04.txt",
+      "story/battle/jpn/ries08_1.txt",
+      "story/battle/jpn/ries09.txt",
+      "story/battle/jpn/riesEX_win.txt",
+      "story/battle/jpn/ries_win.txt",
+      "story/battle/jpn/sion04.txt",
+      "story/battle/jpn/v_sion_win.txt",
+      "story/battle/jpn/warakia09.txt",
+      "story/battle/jpn/warakia_start.txt",
+      "story/battle/jpn/warakia_win.txt"
+    ],
+    "changed_0004_entries": [
+      "font.fnt",
+      "fontl.fnt"
+    ]
+  }
 }

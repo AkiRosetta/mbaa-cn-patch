@@ -151,6 +151,6 @@ Expand-VerifiedPayload `
 Expand-VerifiedPayload `
     -Name "0007.p" `
     -ArchivePath (Join-Path $script:payloadRoot "0007.p.zip") `
-    -ExpectedArchiveHash "fe77d861f2841f678fc42d9bd334fcdd3b6418589e2ba8d323adf4d19c841c73"
+    -ExpectedArchiveHash "fbd764e46d4e559d90739c6064aaf8354980d60d0bc564d457855f8b2645743e"
 
 Write-Host "Repository payloads are ready."
